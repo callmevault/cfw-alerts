@@ -1,0 +1,25 @@
+# What to leave out of the daily digest.
+# Edit this file on GitHub and commit; the next run uses it.
+# Names are not case sensitive. For manufacturers and devices you can use
+# either the display name ("M-VAVE", "FM-1") or the id from the altstrument
+# URL (altstrument.org/devices/m-vave-fm-1 -> "m-vave-fm-1").
+
+[mute]
+manufacturers = []           # whole brands, e.g. ["m-vave"]
+devices = []                 # single devices, e.g. ["m-vave-chocolate"]
+firmwares = []               # single entries, by name or id, e.g. ["m-vave-fm-1/dark-1"]
+kinds = []                   # ["tool"] to hear about firmware only
+tags = []                    # any altstrument tag
+statuses = []                # e.g. ["dormant"]
+
+# If either list has anything in it, you are alerted ONLY about these.
+[watch_only]
+manufacturers = []           # e.g. ["teenage-engineering", "elektron"]
+devices = []
+
+[options]
+alert_new_devices = true          # a synth appears in the catalog for the first time
+alert_new_entries = true          # a new firmware or tool for a device already listed
+alert_new_versions = true         # a new release of something already listed
+new_devices_bypass_mute = true    # a brand-new device is shown even if its brand is muted
+skip_commit_only_versions = true  # ignore "main @ 8f4d15b" updates, keep tagged releases

@@ -1,0 +1,84 @@
+name: CFW alerts
+
+on:
+  schedule:
+    - cron: "47 16 * * *"  # every day at 16:47 UTC, after altstrument's daily update (~14:00-15:40 UTC)
+    # Backups: GitHub can delay or drop scheduled runs. When the 16:47 run
+    # already reported everything, these find nothing new and stay silent.
+    - cron: "47 19 * * *"
+    - cron: "47 22 * * *"
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+# This is all the access the workflow needs; no repository settings have to change.
+permissions:
+  contents: write  # save state.json to the "state" branch
+  issues: write    # open the daily issue and create the "digest" label
+
+concurrency:
+  group: cfw-alerts
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Load the previous run's state
+        run: |
+          # state.json lives on its own "state" branch so main holds only code.
+          if git ls-remote --exit-code origin refs/heads/state > /dev/null; then
+            git fetch --depth=1 origin +refs/heads/state:refs/remotes/origin/state
+            git show origin/state:state.json > state.json
+          else
+            echo "No state branch yet; this run records the baseline."
+          fi
+
+      - name: Compare catalog with the previous run
+        run: python alerts.py
+
+      - name: Open or add to the daily issue
+        if: hashFiles('digest.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="CFW digest $(date -u +%Y-%m-%d)"
+          # A later run on the same day comments on that day's issue instead
+          # of opening a second one.
+          number=$(gh issue list --state all --limit 30 --json number,title \
+            --jq "map(select(.title == \"$title\")) | first | .number // empty")
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file digest.md
+            exit 0
+          fi
+          gh api "repos/$GITHUB_REPOSITORY/labels/digest" --silent 2> /dev/null \
+            || gh label create digest --color 0e8a16 --description "Daily CFW digest"
+          # Assign the owner so GitHub emails them, except when the owner is an
+          # organisation (no single person to assign; members watch the repo)
+          # and in a template repository, the public feed people follow by watching.
+          repo=$(gh api "repos/$GITHUB_REPOSITORY" --jq '"\(.is_template) \(.owner.type)"')
+          assign=()
+          if [ "$repo" = "false User" ]; then
+            assign=(--assignee "$GITHUB_REPOSITORY_OWNER")
+          fi
+          gh issue create --title "$title" --body-file digest.md --label digest "${assign[@]}"
+
+      - name: Save state to the state branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          tree=$(printf '100644 blob %s\tstate.json\n' "$(git hash-object -w state.json)" | git mktree)
+          if parent=$(git rev-parse -q --verify refs/remotes/origin/state); then
+            if [ "$(git rev-parse "$parent^{tree}")" = "$tree" ]; then
+              echo "State unchanged."
+              exit 0
+            fi
+            commit=$(git commit-tree "$tree" -p "$parent" -m "Update catalog state")
+          else
+            commit=$(git commit-tree "$tree" -m "Start catalog state")
+          fi
+          git push origin "$commit:refs/heads/state"
