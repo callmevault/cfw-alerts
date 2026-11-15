@@ -17,14 +17,24 @@ kept on the `state` branch so `main` holds only code.
 
 ## Two ways to use it
 
-### 1. No setup: watch this repository
+### 1. No setup: watch this repository's issues
 
-This repository publishes the digest every day, unfiltered. At the top of its
-page on GitHub click **Watch > Custom**, tick **Issues** and click **Apply**.
-Each new digest then
-appears in your GitHub notifications, and in your email if your
-[notification settings](https://github.com/settings/notifications) send email
-for repositories you watch.
+This repository runs the digest itself every day, with no filters, and posts
+each one as an issue. Anyone can read them on the
+[issues page](https://github.com/callmevault/cfw-alerts/issues), signed in or
+not.
+
+To be notified of each new digest:
+
+1. Sign in to GitHub and open
+   [callmevault/cfw-alerts](https://github.com/callmevault/cfw-alerts).
+2. Click **Watch** at the top right, choose **Custom**, tick **Issues** and
+   click **Apply**.
+
+Each new digest then appears in your GitHub notifications, and in your email
+if your [notification settings](https://github.com/settings/notifications)
+send email for repositories you watch. To stop, choose **Watch >
+Participating and @mentions**.
 
 ### 2. Your own filters: a private copy
 
