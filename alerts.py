@@ -15,12 +15,16 @@ import sys
 import tomllib
 import urllib.error
 import urllib.request
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 CATALOG_URL = "https://altstrument.org/api/catalog.json"
 SITE = "https://altstrument.org"
 COMMIT_ONLY = re.compile(r"@\s*[0-9a-f]{7,40}\b|^[0-9a-f]{7,40}$", re.I)
 MAX_BODY = 60000  # GitHub issue bodies are capped at 65536 characters
+# A new entry whose first listed release is older than this was only just
+# catalogued, not just released, and is marked "(new in catalog)".
+CATALOG_ONLY_DAYS = 14
 
 
 def load_catalog(source, etag=None):
@@ -250,7 +254,18 @@ def short(text, limit=220):
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def render(new_devices, new_entries, new_versions, hidden, devices, firmwares):
+def first_release(fw):
+    dates = []
+    for v in fw["versions"]:
+        try:
+            dates.append(date.fromisoformat(v["date"]))
+        except (TypeError, ValueError):
+            pass
+    return min(dates, default=None)
+
+
+def render(new_devices, new_entries, new_versions, hidden, devices, firmwares, today=None):
+    today = today or datetime.now(timezone.utc).date()
     lines = []
     if new_devices:
         lines.append(f"## New devices ({len(new_devices)})\n")
@@ -270,7 +285,9 @@ def render(new_devices, new_entries, new_versions, hidden, devices, firmwares):
         for fw_id in new_entries:
             fw = firmwares[fw_id]
             latest = fw["versions"][0]["version"] if fw["versions"] else ""
-            lines.append(f"- **[{fw['name']}]({fw['url']})**{badges(fw)} for {device_names(fw, devices)}"
+            first = first_release(fw)
+            marker = " _(new in catalog)_" if first and first < today - timedelta(days=CATALOG_ONLY_DAYS) else ""
+            lines.append(f"- **[{fw['name']}]({fw['url']})**{badges(fw)}{marker} for {device_names(fw, devices)}"
                          + (f", latest {latest}" if latest else ""))
             if fw["summary"]:
                 lines.append(f"  {short(fw['summary'])}")

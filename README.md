@@ -5,6 +5,10 @@ from the [altstrument.org](https://altstrument.org) catalog: new devices, new
 firmware and tools, and new releases of things already listed. Each digest is
 a GitHub issue; on days without news there is no issue.
 
+"New" means new to the altstrument catalog. A new entry whose first release
+is more than two weeks old, an existing project altstrument has only just
+added, is marked _(new in catalog)_.
+
 The workflow runs at 16:47 UTC, after altstrument's daily update, with backup
 runs at 19:47 and 22:47 UTC because GitHub sometimes skips scheduled runs. A
 backup run that finds something new adds it to that day's issue as a comment.
