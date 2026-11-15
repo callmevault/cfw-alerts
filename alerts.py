@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """Daily filtered alerts from the altstrument.org catalog.
 
-Downloads the catalog, compares it with the state saved by the previous run,
-applies filters.toml and writes a Markdown digest. Standard library only
-(Python 3.11+).
+Downloads the catalog (compressed, and only if it changed since the previous
+run), compares it with the state saved by that run, applies filters.toml and
+writes a Markdown digest. Standard library only (Python 3.11+).
 
 Catalog data: altstrument.org, CC-BY-4.0.
 """
 import argparse
+import gzip
 import json
 import re
 import sys
 import tomllib
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -21,12 +23,27 @@ COMMIT_ONLY = re.compile(r"@\s*[0-9a-f]{7,40}\b|^[0-9a-f]{7,40}$", re.I)
 MAX_BODY = 60000  # GitHub issue bodies are capped at 65536 characters
 
 
-def load_catalog(source):
-    if re.match(r"https?://", source):
-        req = urllib.request.Request(source, headers={"User-Agent": "cfw-alerts"})
+def load_catalog(source, etag=None):
+    """Return (catalog, etag). The catalog is None when the server says it has
+    not changed since the given etag."""
+    if not re.match(r"https?://", source):
+        return json.loads(Path(source).read_text(encoding="utf-8")), None
+    # Compressed, the catalog is about a fifth of its size; with the previous
+    # run's etag the server answers 304 and sends nothing if it is unchanged.
+    headers = {"User-Agent": "cfw-alerts", "Accept-Encoding": "gzip"}
+    if etag:
+        headers["If-None-Match"] = etag
+    req = urllib.request.Request(source, headers=headers)
+    try:
         with urllib.request.urlopen(req, timeout=120) as resp:
-            return json.load(resp)
-    return json.loads(Path(source).read_text(encoding="utf-8"))
+            body = resp.read()
+            if resp.headers.get("Content-Encoding", "").lower() == "gzip":
+                body = gzip.decompress(body)
+            return json.loads(body), resp.headers.get("ETag")
+    except urllib.error.HTTPError as err:
+        if err.code == 304:
+            return None, etag
+        raise
 
 
 def norm(value):
@@ -98,11 +115,14 @@ def index_catalog(catalog):
     return devices, firmwares
 
 
-def make_state(devices, firmwares):
-    return {
+def make_state(devices, firmwares, etag=None):
+    state = {
         "devices": sorted(devices),
         "firmwares": {k: sorted(v["version"] for v in f["versions"]) for k, f in sorted(firmwares.items())},
     }
+    if etag:
+        state["catalog_etag"] = etag
+    return state
 
 
 class Filters:
@@ -289,20 +309,24 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="do not update the state file")
     args = ap.parse_args()
 
-    catalog = load_catalog(args.catalog)
+    out, state_path = Path(args.out), Path(args.state)
+    out.unlink(missing_ok=True)
+    state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else None
+
+    catalog, etag = load_catalog(args.catalog, (state or {}).get("catalog_etag"))
+    if catalog is None:
+        print("Catalog unchanged since the last run. No alert sent.")
+        return
     devices, firmwares = index_catalog(catalog)
     if not devices:
         sys.exit("Catalog has no devices; refusing to overwrite state.")
 
     cfg = tomllib.loads(Path(args.filters).read_text(encoding="utf-8")) if Path(args.filters).exists() else {}
     flt = Filters(cfg)
-    out, state_path = Path(args.out), Path(args.state)
-    out.unlink(missing_ok=True)
 
-    if not state_path.exists():
+    if state is None:
         print(f"First run: recorded {len(devices)} devices and {len(firmwares)} entries as the baseline. No alert sent.")
     else:
-        state = json.loads(state_path.read_text(encoding="utf-8"))
         new_devices, new_entries, new_versions, hidden = diff(state, devices, firmwares, flt)
         digest = render(new_devices, new_entries, new_versions, hidden, devices, firmwares)
         print(f"{len(new_devices)} new devices, {len(new_entries)} new entries, "
@@ -311,7 +335,7 @@ def main():
             out.write_text(digest, encoding="utf-8")
 
     if not args.dry_run:
-        state_path.write_text(json.dumps(make_state(devices, firmwares), indent=0, sort_keys=True) + "\n",
+        state_path.write_text(json.dumps(make_state(devices, firmwares, etag), indent=0, sort_keys=True) + "\n",
                               encoding="utf-8")
 
 
