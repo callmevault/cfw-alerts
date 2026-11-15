@@ -42,8 +42,10 @@ Participating and @mentions**.
    and leave **Include all branches** unticked.
 2. Edit `filters.toml` in your copy to mute what you do not want (see the
    reference below) and commit.
-3. Open **Actions > CFW alerts > Run workflow** once. This first run only
-   records a baseline and sends nothing.
+3. Open **Actions > CFW alerts > Run workflow** once. This first run opens an
+   issue straight away with the last day's changes that pass your filters, so
+   you can check everything works. If nothing from the last day passes them,
+   it opens no issue and simply starts tracking.
 
 From then on your copy runs every day and opens an issue assigned to you,
 which GitHub emails you about. No settings need changing: the workflow file
