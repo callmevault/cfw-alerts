@@ -191,6 +191,7 @@ def diff(state, devices, firmwares, flt):
     old_firmwares = state.get("firmwares", {})
     new_devices, new_entries, new_versions = [], [], []
     hidden = 0
+    untagged = []  # commit-only versions ("main @ 8f4d15b") left out by skip_commit_only_versions
 
     fresh_device_ids = {d for d in devices if d not in old_devices}
     for dev_id in sorted(fresh_device_ids):
@@ -213,17 +214,15 @@ def diff(state, devices, firmwares, flt):
         added = [v for v in fw["versions"] if v["version"] not in seen]
         if not added:
             continue
-        if flt.skip_commit_only:
-            kept = [v for v in added if not COMMIT_ONLY.search(v["version"])]
-            hidden += len(added) - len(kept)
-            added = kept
-        if not added:
-            continue
-        if flt.alert_new_versions and flt.firmware_ok(fw_id, fw, devices):
-            new_versions.append((fw_id, added))
-        else:
+        if not (flt.alert_new_versions and flt.firmware_ok(fw_id, fw, devices)):
             hidden += len(added)
-    return new_devices, new_entries, new_versions, hidden
+            continue
+        if flt.skip_commit_only:
+            untagged += [v["version"] for v in added if COMMIT_ONLY.search(v["version"])]
+            added = [v for v in added if not COMMIT_ONLY.search(v["version"])]
+        if added:
+            new_versions.append((fw_id, added))
+    return new_devices, new_entries, new_versions, hidden, untagged
 
 
 def full_name(dev):
@@ -264,7 +263,11 @@ def first_release(fw):
     return min(dates, default=None)
 
 
-def render(new_devices, new_entries, new_versions, hidden, devices, firmwares, today=None):
+def plural(n, word):
+    return f"{n} {word}" + ("" if n == 1 else "s")
+
+
+def render(new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares, today=None):
     today = today or datetime.now(timezone.utc).date()
     lines = []
     if new_devices:
@@ -311,8 +314,11 @@ def render(new_devices, new_entries, new_versions, hidden, devices, firmwares, t
     if len(body) > MAX_BODY:
         body = body[:MAX_BODY].rsplit("\n", 1)[0] + f"\n\n_Digest cut short; see {SITE}/recent for the rest._\n"
     footer = "---\n"
+    if untagged:
+        footer += (f"{plural(len(untagged), 'untagged update')} (such as `{untagged[0]}`) not listed; "
+                   f"see `skip_commit_only_versions` in `filters.toml`. ")
     if hidden:
-        footer += f"{hidden} other change(s) hidden by `filters.toml`. "
+        footer += f"{plural(hidden, 'other change')} hidden by `filters.toml`. "
     footer += f"Data from [altstrument.org]({SITE}), CC-BY-4.0."
     return body + "\n" + footer + "\n"
 
@@ -344,10 +350,11 @@ def main():
     if state is None:
         print(f"First run: recorded {len(devices)} devices and {len(firmwares)} entries as the baseline. No alert sent.")
     else:
-        new_devices, new_entries, new_versions, hidden = diff(state, devices, firmwares, flt)
-        digest = render(new_devices, new_entries, new_versions, hidden, devices, firmwares)
+        new_devices, new_entries, new_versions, hidden, untagged = diff(state, devices, firmwares, flt)
+        digest = render(new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares)
         print(f"{len(new_devices)} new devices, {len(new_entries)} new entries, "
-              f"{len(new_versions)} entries with new versions, {hidden} hidden by filters.")
+              f"{len(new_versions)} entries with new versions, {hidden} hidden by filters, "
+              f"{len(untagged)} untagged updates not listed.")
         if digest:
             out.write_text(digest, encoding="utf-8")
 

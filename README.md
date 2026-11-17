@@ -9,11 +9,13 @@ a GitHub issue; on days without news there is no issue.
 is more than two weeks old, an existing project altstrument has only just
 added, is marked _(new in catalog)_.
 
-The workflow runs at 16:47 UTC, after altstrument's daily update, with backup
-runs at 19:47 and 22:47 UTC because GitHub sometimes skips scheduled runs. A
-backup run that finds something new adds it to that day's issue as a comment.
-Each run compares the catalog with the previous run's `state.json`, which is
-kept on the `state` branch so `main` holds only code.
+The workflow is scheduled three times a day, after altstrument's daily update.
+GitHub often starts scheduled runs hours late and sometimes skips one, so the
+second and third runs are backups: when one of them finds something new, it
+adds it to that day's issue as a comment. An issue is dated by the day its run
+was scheduled, even when GitHub starts it after midnight. Each run compares the
+catalog with the previous run's `state.json`, which is kept on the `state`
+branch so `main` holds only code.
 
 ## Two ways to use it
 
@@ -75,8 +77,8 @@ the altstrument URL: `altstrument.org/devices/m-vave-fm-1` is `"m-vave-fm-1"`.
 
 All options are `true` by default. An entry listed under several devices is
 shown if at least one of those devices passes the filters. The footer of each
-digest says how many changes the filters hid. Changes to `filters.toml` apply
-from the next run.
+digest says how many changes the filters hid and how many untagged updates
+were left out. Changes to `filters.toml` apply from the next run.
 
 To preview your filters before committing, run this in a clone of your copy
 (Python 3.11 or later, no packages needed). It writes `digest.md` with what is

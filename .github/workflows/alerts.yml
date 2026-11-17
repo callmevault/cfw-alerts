@@ -28,6 +28,25 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Date the digest
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          # GitHub often starts scheduled runs hours late, sometimes after midnight
+          # UTC, so a scheduled run is dated by the day it was due, not the day it started.
+          now=$(date -u +%s)
+          due=$now
+          if [ -n "$SCHEDULE" ]; then
+            read -r minute hour _ <<< "$SCHEDULE"
+            if due=$(date -u -d "$(date -u +%F) $hour:$minute" +%s 2> /dev/null); then
+              [ "$due" -le "$now" ] || due=$((due - 86400))
+              echo "Due $(date -u -d "@$due" '+%F %H:%M') UTC, started $(( (now - due) / 60 )) minutes late."
+            else
+              due=$now
+            fi
+          fi
+          echo "DIGEST_DAY=$(date -u -d "@$due" +%F)" >> "$GITHUB_ENV"
+
       - name: Load the previous run's state
         env:
           GH_TOKEN: ${{ github.token }}
@@ -70,14 +89,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          title="CFW digest $(date -u +%Y-%m-%d)"
+          title="CFW digest $DIGEST_DAY"
           if [ -n "${FIRST_RUN_SAMPLE:-}" ]; then
             { echo "_First run: a sample of the last day's changes that pass your filters. From now on a digest arrives on each day with news._"
               echo
               cat digest.md; } > first-run.md
             mv first-run.md digest.md
           fi
-          # A later run on the same day comments on that day's issue instead
+          # A later run for the same day comments on that day's issue instead
           # of opening a second one.
           number=$(gh issue list --state all --limit 30 --json number,title \
             --jq "map(select(.title == \"$title\")) | first | .number // empty")
