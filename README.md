@@ -49,10 +49,10 @@ Participating and @mentions**.
    you can check everything works. If nothing from the last day passes them,
    it opens no issue and simply starts tracking.
 
-From then on your copy runs every day and opens an issue assigned to you,
-which GitHub emails you about. No settings need changing: the workflow file
+From then on your copy runs every day and opens an issue that mentions you,
+so GitHub emails it to you. No settings need changing: the workflow file
 grants itself the permissions it uses. In a repository owned by an
-organisation nobody is assigned; members watch the repository instead.
+organisation nobody is mentioned; members watch the repository instead.
 
 ## Filters reference
 

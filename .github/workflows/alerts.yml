@@ -106,15 +106,16 @@ jobs:
           fi
           gh api "repos/$GITHUB_REPOSITORY/labels/digest" --silent 2> /dev/null \
             || gh label create digest --color 0e8a16 --description "Daily CFW digest"
-          # Assign the owner so GitHub emails them, except when the owner is an
-          # organisation (no single person to assign; members watch the repo)
-          # and in a template repository, the public feed people follow by watching.
+          # Mention the owner so GitHub emails them the digest and any later
+          # comments. (Assigning them would send a second email about the
+          # assignment.) Nobody is mentioned when the owner is an organisation
+          # (members watch the repo) or in a template repository, the public
+          # feed people follow by watching.
           repo=$(gh api "repos/$GITHUB_REPOSITORY" --jq '"\(.is_template) \(.owner.type)"')
-          assign=()
           if [ "$repo" = "false User" ]; then
-            assign=(--assignee "$GITHUB_REPOSITORY_OWNER")
+            printf '\ncc @%s\n' "$GITHUB_REPOSITORY_OWNER" >> digest.md
           fi
-          gh issue create --title "$title" --body-file digest.md --label digest "${assign[@]}"
+          gh issue create --title "$title" --body-file digest.md --label digest
 
       - name: Save state to the state branch
         run: |
