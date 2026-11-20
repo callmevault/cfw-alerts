@@ -11,7 +11,7 @@ on:
 
 # This is all the access the workflow needs; no repository settings have to change.
 permissions:
-  contents: write  # save state.json to the "state" branch
+  contents: write  # save state.json and the JSON feed to the "state" branch
   issues: write    # open the daily issue and create the "digest" label
 
 concurrency:
@@ -51,10 +51,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # state.json lives on its own "state" branch so main holds only code.
+          # state.json and the JSON feed live on their own "state" branch so
+          # main holds only code. The branch's files are unpacked into published/.
+          mkdir -p published
           if git ls-remote --exit-code origin refs/heads/state > /dev/null; then
             git fetch --depth=1 origin +refs/heads/state:refs/remotes/origin/state
-            git show origin/state:state.json > state.json
+            git archive origin/state | tar -x -C published
+            cp published/state.json state.json
             exit 0
           fi
           # First run of a copy made from the template: start from the template's
@@ -82,7 +85,7 @@ jobs:
           rm -f seed.json
 
       - name: Compare catalog with the previous run
-        run: python alerts.py
+        run: python alerts.py --day "$DIGEST_DAY" --feed published
 
       - name: Open or add to the daily issue
         if: hashFiles('digest.md') != ''
@@ -117,11 +120,16 @@ jobs:
           fi
           gh issue create --title "$title" --body-file digest.md --label digest
 
-      - name: Save state to the state branch
+      - name: Save state and feed to the state branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          tree=$(printf '100644 blob %s\tstate.json\n' "$(git hash-object -w state.json)" | git mktree)
+          cp state.json published/state.json
+          # Build the branch from published/ with a separate index, leaving the
+          # main checkout alone.
+          export GIT_INDEX_FILE="$RUNNER_TEMP/state.index"
+          git --work-tree=published add --all
+          tree=$(git write-tree)
           if parent=$(git rev-parse -q --verify refs/remotes/origin/state); then
             if [ "$(git rev-parse "$parent^{tree}")" = "$tree" ]; then
               echo "State unchanged."

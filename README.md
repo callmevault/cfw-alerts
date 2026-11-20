@@ -15,7 +15,8 @@ second and third runs are backups: when one of them finds something new, it
 adds it to that day's issue as a comment. An issue is dated by the day its run
 was scheduled, even when GitHub starts it after midnight. Each run compares the
 catalog with the previous run's `state.json`, which is kept on the `state`
-branch so `main` holds only code.
+branch, along with a [JSON feed](#json-feed) of the digests, so `main` holds
+only code.
 
 ## Two ways to use it
 
@@ -89,6 +90,27 @@ git fetch origin state
 git show origin/state:state.json > state.json
 python3 alerts.py --dry-run
 ```
+
+## JSON feed
+
+Each digest is also saved as JSON on the `state` branch, for websites and
+other tools:
+
+- `feed.json` holds the last 14 days with news, newest first, and an
+  `archive` list of every day saved.
+- `days/YYYY-MM-DD.json` holds one day each and is kept for good.
+
+This repository's feed is
+<https://raw.githubusercontent.com/callmevault/cfw-alerts/state/feed.json>,
+readable without a GitHub account. A private copy's feed needs a token.
+
+Each day has the same changes as that day's issue: `devices`, `entries` (new
+firmware and tools) and `versions` (new releases of listed entries), with
+names, links, the devices they run on, and the same shortened summaries and
+release notes. It also counts the untagged updates and filtered changes left
+out. A later run for the same day adds to that day's file. Anything built on
+the feed must credit altstrument.org under CC-BY-4.0, as its `source` field
+says.
 
 ## Getting updates
 

@@ -3,13 +3,15 @@
 
 Downloads the catalog (compressed, and only if it changed since the previous
 run), compares it with the state saved by that run, applies filters.toml and
-writes a Markdown digest. Standard library only (Python 3.11+).
+writes a Markdown digest, and with --feed the same digest as JSON. Standard
+library only (Python 3.11+).
 
 Catalog data: altstrument.org, CC-BY-4.0.
 """
 import argparse
 import gzip
 import json
+import os
 import re
 import sys
 import tomllib
@@ -25,6 +27,8 @@ MAX_BODY = 60000  # GitHub issue bodies are capped at 65536 characters
 # A new entry whose first listed release is older than this was only just
 # catalogued, not just released, and is marked "(new in catalog)".
 CATALOG_ONLY_DAYS = 14
+FEED_DAYS = 14  # days with news kept in feed.json; each day also has its own file
+LICENSE = {"name": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/"}
 
 
 def load_catalog(source, etag=None):
@@ -263,6 +267,11 @@ def first_release(fw):
     return min(dates, default=None)
 
 
+def new_in_catalog(fw, today):
+    first = first_release(fw)
+    return bool(first and first < today - timedelta(days=CATALOG_ONLY_DAYS))
+
+
 def plural(n, word):
     return f"{n} {word}" + ("" if n == 1 else "s")
 
@@ -288,8 +297,7 @@ def render(new_devices, new_entries, new_versions, hidden, untagged, devices, fi
         for fw_id in new_entries:
             fw = firmwares[fw_id]
             latest = fw["versions"][0]["version"] if fw["versions"] else ""
-            first = first_release(fw)
-            marker = " _(new in catalog)_" if first and first < today - timedelta(days=CATALOG_ONLY_DAYS) else ""
+            marker = " _(new in catalog)_" if new_in_catalog(fw, today) else ""
             lines.append(f"- **[{fw['name']}]({fw['url']})**{badges(fw)}{marker} for {device_names(fw, devices)}"
                          + (f", latest {latest}" if latest else ""))
             if fw["summary"]:
@@ -323,6 +331,104 @@ def render(new_devices, new_entries, new_versions, hidden, untagged, devices, fi
     return body + "\n" + footer + "\n"
 
 
+# JSON feed: the same changes as the digest, for websites and other tools.
+
+def entry_fields(fw_id, fw, devices):
+    return {
+        "id": fw_id,
+        "name": fw["name"],
+        "url": fw["url"],
+        "kind": fw["kind"],
+        "status": fw["status"] or None,
+        "quality": fw["quality"],
+        "brick_risk": fw["brick_risk"],
+        "tags": fw["tags"],
+        "devices": [{"id": d, "name": full_name(devices[d]) if d in devices else d} for d in fw["devices"]],
+    }
+
+
+def release_fields(v):
+    return {
+        "version": v["version"],
+        "date": v["date"] or None,
+        "url": v["url"] or None,
+        "notes": short(v["notes"]) if v["notes"] else None,
+    }
+
+
+def day_record(day, new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares):
+    return {
+        "date": day.isoformat(),
+        "devices": [{
+            "id": d,
+            "name": full_name(devices[d]),
+            "url": devices[d]["url"],
+            "category": devices[d]["category"] or None,
+            "tagline": short(devices[d]["tagline"]) if devices[d]["tagline"] else None,
+            "entries": devices[d]["entries"],
+        } for d in new_devices],
+        "entries": [entry_fields(f, firmwares[f], devices) | {
+            "summary": short(firmwares[f]["summary"]) if firmwares[f]["summary"] else None,
+            "latest": firmwares[f]["versions"][0]["version"] if firmwares[f]["versions"] else None,
+            "first_release": str(first_release(firmwares[f]) or "") or None,
+            "new_in_catalog": new_in_catalog(firmwares[f], day),
+        } for f in new_entries],
+        "versions": [entry_fields(f, firmwares[f], devices) | {
+            "releases": [release_fields(v) for v in added],
+        } for f, added in new_versions],
+        "untagged_updates": len(untagged),
+        "hidden_by_filters": hidden,
+    }
+
+
+def merge_day(old, new):
+    """Add what a later run found to the record it extends, for the same day."""
+    for key in ("devices", "entries"):
+        known = {item["id"] for item in old[key]}
+        old[key] += [item for item in new[key] if item["id"] not in known]
+    by_id = {item["id"]: item for item in old["versions"]}
+    for item in new["versions"]:
+        if item["id"] not in by_id:
+            old["versions"].append(item)
+            continue
+        have = by_id[item["id"]]["releases"]
+        known = {r["version"] for r in have}
+        # The later run's releases are the newer ones; releases stay newest first.
+        by_id[item["id"]]["releases"] = [r for r in item["releases"] if r["version"] not in known] + have
+    for key in ("untagged_updates", "hidden_by_filters"):
+        old[key] = old.get(key, 0) + new[key]
+    return old
+
+
+def write_json(path, data):
+    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def write_feed(feed_dir, record, repository=None):
+    """Save the day as days/YYYY-MM-DD.json (merged with an earlier run that
+    day) and rebuild feed.json from the latest days."""
+    days_dir = feed_dir / "days"
+    days_dir.mkdir(parents=True, exist_ok=True)
+    path = days_dir / f"{record['date']}.json"
+    if path.exists():
+        record = merge_day(json.loads(path.read_text(encoding="utf-8")), record)
+    write_json(path, record)
+    every_day = sorted(days_dir.glob("????-??-??.json"), reverse=True)
+    feed = {
+        "version": 1,
+        "title": "CFW digest",
+        "description": "New custom firmware, tools and releases for music hardware, from the altstrument.org catalog.",
+        "updated": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "source": {"name": "altstrument.org", "url": SITE, "license": LICENSE["name"], "license_url": LICENSE["url"]},
+        "attribution": "Data from altstrument.org, CC-BY-4.0. Summaries and release notes are shortened.",
+    }
+    if repository:
+        feed["repository"] = repository
+    feed["archive"] = [p.stem for p in every_day]  # every days/<date>.json, newest first
+    feed["days"] = [json.loads(p.read_text(encoding="utf-8")) for p in every_day[:FEED_DAYS]]
+    write_json(feed_dir / "feed.json", feed)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--catalog", default=CATALOG_URL, help="URL or local path of catalog.json")
@@ -330,7 +436,10 @@ def main():
     ap.add_argument("--filters", default="filters.toml")
     ap.add_argument("--out", default="digest.md")
     ap.add_argument("--dry-run", action="store_true", help="do not update the state file")
+    ap.add_argument("--day", type=date.fromisoformat, help="date of this digest, YYYY-MM-DD (default: today, UTC)")
+    ap.add_argument("--feed", type=Path, help="folder for the JSON feed: feed.json and days/YYYY-MM-DD.json")
     args = ap.parse_args()
+    day = args.day or datetime.now(timezone.utc).date()
 
     out, state_path = Path(args.out), Path(args.state)
     out.unlink(missing_ok=True)
@@ -351,12 +460,16 @@ def main():
         print(f"First run: recorded {len(devices)} devices and {len(firmwares)} entries as the baseline. No alert sent.")
     else:
         new_devices, new_entries, new_versions, hidden, untagged = diff(state, devices, firmwares, flt)
-        digest = render(new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares)
+        digest = render(new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares, today=day)
         print(f"{len(new_devices)} new devices, {len(new_entries)} new entries, "
               f"{len(new_versions)} entries with new versions, {hidden} hidden by filters, "
               f"{len(untagged)} untagged updates not listed.")
         if digest:
             out.write_text(digest, encoding="utf-8")
+            if args.feed:
+                record = day_record(day, new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares)
+                server, repo = os.environ.get("GITHUB_SERVER_URL"), os.environ.get("GITHUB_REPOSITORY")
+                write_feed(args.feed, record, f"{server}/{repo}" if server and repo else None)
 
     if not args.dry_run:
         state_path.write_text(json.dumps(make_state(devices, firmwares, etag), indent=0, sort_keys=True) + "\n",
