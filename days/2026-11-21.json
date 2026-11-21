@@ -1,0 +1,3614 @@
+{
+ "date": "2026-11-21",
+ "devices": [
+  {
+   "id": "moog-memorymoog",
+   "name": "Moog Music Memorymoog",
+   "manufacturer": "Moog Music",
+   "manufacturer_slug": "moog-music",
+   "url": "https://altstrument.org/devices/moog-memorymoog",
+   "category": "synth",
+   "tagline": "Six-voice analog polysynth with 18 oscillators and patch memory, made from 1982 to 1985",
+   "entries": [
+    "+EF firmware"
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "id": "designburg-vibe-fm-mk1/kracht-vibe",
+   "name": "KRACHT",
+   "url": "https://altstrument.org/firmware/designburg-vibe-fm-mk1/kracht-vibe",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "drums",
+    "kick",
+    "sequencer",
+    "synth-engine",
+    "hard-techno",
+    "sidechain",
+    "reverb",
+    "sdk",
+    "web"
+   ],
+   "devices": [
+    {
+     "id": "designburg-vibe-fm-mk1",
+     "name": "Designburg VIBE FM Mk1",
+     "manufacturer": "Designburg",
+     "manufacturer_slug": "designburg"
+    }
+   ],
+   "summary": "Hard techno drum machine built with the VIBE FM SDK: a synthesised kick designer with seven presets, a rumble made from the kick, hats, clap and a 16-step sequencer; no samples. It runs in the VIBE FM player and plugin…",
+   "latest": "v0.3.1",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/a22",
+   "name": "A22",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/a22",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "fm",
+    "looper",
+    "sequencer",
+    "fx",
+    "chords",
+    "arpeggiator",
+    "usb-audio",
+    "usb-midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "FM workstation for the FM-1, derived from h1: ten synth and drum engines with eight algorithms each, eight effects, a four-track tape with knob automation, a mixer, Riff and Shake sequencers and chord memory.",
+   "latest": "main @ 74eaa26",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/bloomy",
+   "name": "Bloomy",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/bloomy",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "synth-engine",
+    "sampler",
+    "drums",
+    "fx",
+    "chords",
+    "emulator",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Groovebox firmware for the FM-1 derived from LOOM-8, with five project slots, per-track generator, evolver and Turing functions, Knit and Jacquard engines with a chorus, and Italian-language offline tools for backup, so…",
+   "latest": "main @ cb4c0cb",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/chord-run",
+   "name": "CHORD RUN",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/chord-run",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "chords",
+    "performance",
+    "game",
+    "drums",
+    "looper",
+    "sampler",
+    "midi",
+    "usb-midi",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "One-finger chord player for the FM-1 with 17 song sets, a scale-matched melody on the white keys, drum styles, a 4-bar looper and a runner game that scores your playing. Rights warning: the song sets use the chords of c…",
+   "latest": "2.6",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/chordism",
+   "name": "Chordism",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/chordism",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "synth",
+    "chords",
+    "arpeggiator",
+    "fx",
+    "reverb",
+    "delay",
+    "ble-midi",
+    "usb-audio",
+    "midi",
+    "port"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Chord synth for the FM-1, a port of the Chordism Schwung module: each key plays a four-voice chord with morphing levels and pans, FM, a pressure-controlled filter, lo-fi, delay, plate reverb and an arpeggiator.",
+   "latest": "0.9",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/floop-studio",
+   "name": "Floop Studio",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/floop-studio",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "editor",
+    "sequencer",
+    "midi",
+    "sysex",
+    "sampler",
+    "vst",
+    "macos"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "FL Studio plugin (VST3 and AU, macOS) with a four-track MIDI step sequencer and a live editor for an FM-1 running SLOOP: pattern, sounds, sample upload, MIDI map and two-way clock.",
+   "latest": "0.1",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/fm1-800",
+   "name": "FM1-800",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-800",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "fx",
+    "midi",
+    "emulation"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Fan-made Korg Poly-800 for the FM-1 with its 64 factory programs plus 64 user slots, Poly-800 style editing, chorus and a 256-note step sequencer, and an added phaser, tape echo, high-pass and MIDI clock in. Rights warn…",
+   "latest": "0.12.5",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/fm1-pocket-player",
+   "name": "FM-1 Pocket Player",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-pocket-player",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "web",
+    "library",
+    "ui"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Browser player that runs FM-1 community firmware on an on-screen panel, with a searchable library of firmware from The Firmware Hub, original .fwsc packages on an FM-1 chip emulator and .rfm1 builds on a simulator, and…",
+   "latest": "main @ cd39859",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/fm1-rdx",
+   "name": "FM1-RDX",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-rdx",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "fm",
+    "fx",
+    "midi",
+    "sysex",
+    "usb-audio",
+    "emulator",
+    "port"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Four-operator FM synth for the FM-1 inspired by the Yamaha Reface DX: 33 sounds, twelve algorithms, up to eight adaptive voices, two of seven effects and Reface-style SysEx, with a browser emulator.",
+   "latest": "main @ 3f4dc46",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ghettomachine",
+   "name": "GhettoMachine",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ghettomachine",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "drums",
+    "sequencer",
+    "synth-engine",
+    "fx",
+    "arpeggiator",
+    "usb-audio",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Four-track groovebox for the FM-1: a 909 or 808 drum track, three mono, poly or sampler tracks, a 64-step sequencer with 16 patterns, a scene grid, a 303 pattern generator and per-track stems over USB.",
+   "latest": "main @ 435f9c8",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/kalk",
+   "name": "KALK",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/kalk",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "drums",
+    "sequencer",
+    "groovebox",
+    "synth-engine",
+    "fx",
+    "performance",
+    "generative",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Beat composer for the FM-1 after the workflow of Limelite: five synthesised drum and tone voices, a three-lane sequence in four patterns, looping side lanes, 127 remix variations, an XY effect with recorded motion and a…",
+   "latest": "0.7",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ko-bass",
+   "name": "KO BASS",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ko-bass",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "bass",
+    "bassline",
+    "synth-engine",
+    "sequencer",
+    "usb-midi",
+    "usb-audio",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Bass-line firmware for the FM-1: the KO genre engine narrowed to bass, with Acid, Sub, Reese, FM, Fold and Sync eras, LINE presets with user plates, and tempo and clock tools.",
+   "latest": "main @ a14f088",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ko-fm1",
+   "name": "KO FM-1 player",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ko-fm1",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "flasher",
+    "web",
+    "webassembly",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "GitHub Pages browser player and Web MIDI installer for the KO firmwares: runs each of the fifteen as WebAssembly with an on-screen FM-1 and installs its package on a connected unit from Chrome or Edge.",
+   "latest": "main @ 6a88219",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ko-genres",
+   "name": "KO genre firmwares",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ko-genres",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "genre-packs",
+    "sequencer",
+    "plates",
+    "usb-midi",
+    "usb-audio",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Twelve genre firmwares for the FM-1 built on one shared engine and Dinghy: DUB, HOUSE, HVYPSY, JAZZ, IDM, HIPHOP, POP, FUNK, TECHNO, TRIPHOP, SOUL and XCRASH, each with its own plates and installed as its own package.",
+   "latest": "main @ 21f182a",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ko-jet",
+   "name": "KO JET",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ko-jet",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "recording",
+    "work-in-progress",
+    "usb-midi",
+    "usb-audio",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Work-in-progress synth and sequencer firmware for the FM-1 with its own engine, banks, preset-like patches and a new sequencer with recording; the README says it has run only in the simulator and emulator, not on hardwa…",
+   "latest": "main @ 52bcba7",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/ko-kit",
+   "name": "KO KIT",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ko-kit",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "drum-machine",
+    "sequencer",
+    "drums",
+    "performance-pads",
+    "usb-midi",
+    "usb-audio",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Drum firmware for the FM-1 with sixteen synthesised drum voices, eleven performance pads, groove plates across kit eras and its own sequencer and store; it is not one of the genre packs.",
+   "latest": "main @ 91626ff",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/loom-cafa",
+   "name": "Loom CAFA",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/loom-cafa",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "android",
+    "sequencer",
+    "synth-engine",
+    "sampler",
+    "midi",
+    "usb-audio"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Experimental fork of the Android app LOOM Groovebox that uses an FM-1 running Windjammer as its controller, display and USB audio output, with the eight LOOM tracks selectable from the FM-1.",
+   "latest": "loom-v3.2.19-cafa.5",
+   "first_release": "2026-11-19",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/sillage",
+   "name": "Sillage",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/sillage",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "drums",
+    "performance",
+    "mixer",
+    "fx",
+    "editor",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Eight-track groovebox for the FM-1 derived from Skiff and Felucca, with 448 presets sorted by family, a 64-step sequencer with SONG, scenes and PERFORM modes, a 4-band EQ per track and a stereo master stage.",
+   "latest": "2.2.0",
+   "first_release": "2026-11-18",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/viber",
+   "name": "Viber",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/viber",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "drums",
+    "wavetable",
+    "performance",
+    "editor",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Six-track groovebox for the FM-1 derived from Skiff and Felucca, adding a wavetable engine, a two-page clips mode, round knob displays and a master level meter.",
+   "latest": "1.1",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-fm-1/volna",
+   "name": "Volna",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/volna",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "wavetable",
+    "arpeggiator",
+    "modulation",
+    "fx",
+    "editor"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Wavetable synth for the FM-1 built on Dinghy: three oscillators per voice, two filters, four envelopes, a modulation matrix, effects and a step arpeggiator with its own pattern for every patch.",
+   "latest": "1.1",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m-vave-smk-37/knobi-six",
+   "name": "KNOBI-SIX",
+   "url": "https://altstrument.org/firmware/m-vave-smk-37/knobi-six",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "synth",
+    "polyphonic",
+    "arpeggiator",
+    "sequencer",
+    "midi",
+    "platform"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "summary": "Standalone OB-6-inspired polysynth for the SMK-37 Pro: six voices, two oscillators, a state-variable filter, the front panel's 12 knobs, patch memory, an arpeggiator and clock, distortion and a step sequencer.",
+   "latest": "0.1",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "m5stack-tab5/sloop-fm1-tab5",
+   "name": "sloop-fm1-tab5",
+   "url": "https://altstrument.org/firmware/m5stack-tab5/sloop-fm1-tab5",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "sampler",
+    "fx",
+    "midi",
+    "performance",
+    "touchscreen",
+    "keyboard",
+    "port"
+   ],
+   "devices": [
+    {
+     "id": "m5stack-tab5",
+     "name": "M5Stack Tab5",
+     "manufacturer": "M5Stack",
+     "manufacturer_slug": "m5stack"
+    }
+   ],
+   "summary": "Port of the SLOOP groovebox engine to the Tab5 with a touchscreen UI and Tab5 Keyboard input, in development on the dev branch of the repository, with a planned companion mode for an FM-1 over USB.",
+   "latest": "dev @ 908090d",
+   "first_release": "2026-11-21",
+   "new_in_catalog": false
+  },
+  {
+   "id": "sonicware-smpltrek/enaga",
+   "name": "Enaga",
+   "url": "https://altstrument.org/firmware/sonicware-smpltrek/enaga",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "app-platform",
+    "sdk",
+    "dsp",
+    "synth",
+    "sampler",
+    "midi",
+    "cpp"
+   ],
+   "devices": [
+    {
+     "id": "sonicware-cydrums",
+     "name": "Sonicware CyDrums",
+     "manufacturer": "Sonicware",
+     "manufacturer_slug": "sonicware"
+    },
+    {
+     "id": "sonicware-lofi-12-xt",
+     "name": "Sonicware Lofi-12 XT",
+     "manufacturer": "Sonicware",
+     "manufacturer_slug": "sonicware"
+    },
+    {
+     "id": "sonicware-smpltrek",
+     "name": "Sonicware SmplTrek",
+     "manufacturer": "Sonicware",
+     "manufacturer_slug": "sonicware"
+    }
+   ],
+   "summary": "Unofficial replacement firmware for the SmplTrek that runs apps written in C++ from the SD card, with a DSP library, file, MIDI and clock services and a synth example. Update files are also built for the Lofi-12 XT and…",
+   "latest": "0.1.0",
+   "first_release": "2026-11-20",
+   "new_in_catalog": false
+  }
+ ],
+ "versions": [
+  {
+   "id": "1010music-bitbox-micro/bitbox-micro-fw-patch",
+   "name": "Bitbox Micro firmware patch",
+   "url": "https://altstrument.org/firmware/1010music-bitbox-micro/bitbox-micro-fw-patch",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "midi",
+    "fx",
+    "lfo",
+    "ui",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "1010music-bitbox-micro",
+     "name": "1010music Bitbox Micro",
+     "manufacturer": "1010music",
+     "manufacturer_slug": "1010music"
+    }
+   ],
+   "releases": [
+    {
+     "version": "2.3.13-mod",
+     "date": "2026-11-21",
+     "url": "https://github.com/modularpatcher/bitbox-micro-fw-patch/commit/b7f7ffaf0e8af2bffbaabd93d5e3dbcee748e854",
+     "notes": "Packs the image to fit older modules whose bootloader only takes firmware up to 768 KB, which said \"Unable to verify\" on 2.3.10-mod to 2.3.12-mod. No new features. Date is the commit date."
+    },
+    {
+     "version": "2.3.12-mod",
+     "date": "2026-11-15",
+     "url": "https://github.com/modularpatcher/bitbox-micro-fw-patch/commit/58b927157a0c1e25fcc3554c066dd7ad90978673",
+     "notes": "Adds gate reassignment, round robin, recording by gate, CV and gate control of Live Flip modes and Hold FX, a compressor sidechain, mute and solo by MIDI, and a printable CC reference card. Date is the commit date."
+    }
+   ]
+  },
+  {
+   "id": "ableton-move/davebox-sa",
+   "name": "dAVEBOx SA",
+   "url": "https://altstrument.org/firmware/ableton-move/davebox-sa",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "midi",
+    "performance",
+    "platform"
+   ],
+   "devices": [
+    {
+     "id": "ableton-move",
+     "name": "Ableton Move",
+     "manufacturer": "Ableton",
+     "manufacturer_slug": "ableton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v2.0.1",
+     "date": "2026-11-20",
+     "url": "https://github.com/legsmechanical/dbxhost/releases/tag/v2.0.1",
+     "notes": "Lists everything new since 1.1.3, as 2.0.0 was a test release. Adds Audio tracks that record from the Move's microphone or line input and play, warp and loop samples up to 30 minutes long, and Slicer tracks that chop a…"
+    }
+   ]
+  },
+  {
+   "id": "ableton-move/mono2k",
+   "name": "MONO2K",
+   "url": "https://altstrument.org/firmware/ableton-move/mono2k",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "fx",
+    "performance",
+    "midi",
+    "machines"
+   ],
+   "devices": [
+    {
+     "id": "ableton-move",
+     "name": "Ableton Move",
+     "manufacturer": "Ableton",
+     "manufacturer_slug": "ableton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "move-v0.9.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/InigoHernandez/mono2k/releases/tag/move-v0.9.0",
+     "notes": "Every attack now starts from silence and runs its whole time, an empty step on a POLY lead takes the last chord played, and holding a step while playing keys puts them into it. Adds READY: stop, press Rec, and the first…"
+    }
+   ]
+  },
+  {
+   "id": "akai-mpc-live/mpc-tributary",
+   "name": "Tributary",
+   "url": "https://altstrument.org/firmware/akai-mpc-live/mpc-tributary",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "usb-audio",
+    "platform"
+   ],
+   "devices": [
+    {
+     "id": "akai-mpc-live",
+     "name": "Akai Professional MPC Live / Live II / X / One / Key 61",
+     "manufacturer": "Akai Professional",
+     "manufacturer_slug": "akai-professional"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.2.6",
+     "date": "2026-11-20",
+     "url": "https://github.com/stampman3000-jpg/mpc-tributary/releases/tag/v1.2.6",
+     "notes": "The developer name is now Stampman3000, so the old plugin folder should be deleted after updating and the plugin picked again in older projects."
+    }
+   ]
+  },
+  {
+   "id": "akai-mpc-sample/melodee-sample",
+   "name": "Melodee (MPC Sample)",
+   "url": "https://altstrument.org/firmware/akai-mpc-sample/melodee-sample",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "sampler",
+    "platform",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "akai-mpc-sample",
+     "name": "Akai Professional MPC Sample",
+     "manufacturer": "Akai Professional",
+     "manufacturer_slug": "akai-professional"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.6.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/keremimo/melodee-sample/releases/tag/v0.6.1",
+     "notes": "While Seq Record runs, the pads on Chop record the slices they play, and a sequence can be given one of the 16 track colours. Stage's FX view can add an effect. Requires MPC Sample firmware 1.3.0.12."
+    },
+    {
+     "version": "v0.6.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/keremimo/melodee-sample/releases/tag/v0.6.0",
+     "notes": "USB-C in plays straight to the jacks by default, about 8 ms sooner, and an audio track's MONITOR is now Off, Auto or On. Hand-played MIDI goes out at once, a MIDI track's delay reaches -50 ms, and an undo list, starred…"
+    }
+   ]
+  },
+  {
+   "id": "akai-mpc2000/vmpc2000xl",
+   "name": "VMPC2000XL",
+   "url": "https://altstrument.org/firmware/akai-mpc2000/vmpc2000xl",
+   "kind": "tool",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "sampler",
+    "sequencer"
+   ],
+   "devices": [
+    {
+     "id": "akai-mpc2000",
+     "name": "Akai Professional MPC2000 / 2000XL",
+     "manufacturer": "Akai Professional",
+     "manufacturer_slug": "akai-professional"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.9.21",
+     "date": "2026-11-20",
+     "url": "https://github.com/izzyreal/vmpc-juce/releases/tag/v0.9.21",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "id": "bastl-instruments-citadel/sungam-fx-wizard",
+   "name": "Sungam FX Wizard firmware",
+   "url": "https://altstrument.org/firmware/bastl-instruments-citadel/sungam-fx-wizard",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "fx",
+    "delay",
+    "reverb",
+    "chorus",
+    "phaser",
+    "distortion",
+    "pitch-shifter"
+   ],
+   "devices": [
+    {
+     "id": "bastl-instruments-citadel",
+     "name": "Bastl Instruments Citadel",
+     "manufacturer": "Bastl Instruments",
+     "manufacturer_slug": "bastl-instruments"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.1.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/SungamMagnus/Sungam-Citadel-FXwizard-FW/releases/tag/v1.1.0",
+     "notes": "Pre-release, not yet tested on hardware. A notch filter with drive replaces the phaser, the pitch shifter's Time knob snaps to musical steps, the delay time knob is reversed, and mono input works in every mode. The mode…"
+    }
+   ]
+  },
+  {
+   "id": "designburg-vibe-fm-mk1/kriechstrom-vibe",
+   "name": "KRIECHSTROM for VIBE FM",
+   "url": "https://altstrument.org/firmware/designburg-vibe-fm-mk1/kriechstrom-vibe",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "fx",
+    "distortion",
+    "generative",
+    "performance",
+    "midi",
+    "cv",
+    "sdk",
+    "web",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "designburg-vibe-fm-mk1",
+     "name": "Designburg VIBE FM Mk1",
+     "manufacturer": "Designburg",
+     "manufacturer_slug": "designburg"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.5.11",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.11",
+     "notes": "DATA is the page's own knob: it sets only the sounds on SOUND, the list, step or pedal where there is one, the level on MIXER, and on other pages the card marked DATA."
+    },
+    {
+     "version": "0.5.10",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.10",
+     "notes": "Fixes the mixer needles, track level lines and pad lights sticking at the loudest moment, and the idle screen's figure grows anew each bar and flares on hits."
+    },
+    {
+     "version": "0.5.9",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.9",
+     "notes": "The idle screen draws discharges from its corners, top, sides and floor on drum hits, and on their own in silence."
+    },
+    {
+     "version": "0.5.8",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.8",
+     "notes": "HAUNT's picture follows the bar's real snare and clap hits, and on DRAG a dot rides the tape's speed."
+    },
+    {
+     "version": "0.5.7",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.7",
+     "notes": "Draws a discharge behind the page on every drum hit, shaped by DAMAGE, WALL and HISS, and adds a MENU > DISPLAY setting to turn LIGHTNING on or off."
+    },
+    {
+     "version": "0.5.6",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.6",
+     "notes": "A pulse of current runs through the figure behind the pages on every hit, unless SCREEN WEAR is off, and MASTER shows WEAR as a column of cells."
+    },
+    {
+     "version": "0.5.5",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.5",
+     "notes": "RETURN goes back to the page before, step by step, DATA walks the lists of PROJECTS, FILES, PARTS A-D and MY SOUNDS, and in the plugin and Playground a click on the DATA knob is ENTER."
+    },
+    {
+     "version": "0.5.4",
+     "date": "2026-11-20",
+     "url": "https://github.com/Xforsa/kriechstrom-vibe/releases/tag/v0.5.4",
+     "notes": "SHIFT + HOME opens MENU, which is always at the top of the display, and a click on DATA is ENTER."
+    }
+   ]
+  },
+  {
+   "id": "electrosmith-daisy-patch/pzd-daisy-pod-groovebox",
+   "name": "PZD Daisy Pod Groovebox",
+   "url": "https://altstrument.org/firmware/electrosmith-daisy-patch/pzd-daisy-pod-groovebox",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "looper",
+    "sequencer",
+    "arpeggiator",
+    "synth-engine",
+    "fm",
+    "granular",
+    "sampler",
+    "fx",
+    "reverb",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "electrosmith-daisy-patch",
+     "name": "Electrosmith Daisy Patch / Pod / Patch.init()",
+     "manufacturer": "Electrosmith",
+     "manufacturer_slug": "electrosmith"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v4.0.4",
+     "date": "2026-11-21",
+     "url": "https://github.com/Peteranthony1st/PZD-Daisy-Pod-Groovebox/releases/tag/v4.0.4",
+     "notes": "A MIDI track's K1 now picks the engine in the same order as every engine page. Adds the enclosure build guide as a PDF."
+    }
+   ]
+  },
+  {
+   "id": "erica-synths-perkons-hd-01/modmatrix-desktop",
+   "name": "Perkons Mod Matrix Desktop",
+   "url": "https://altstrument.org/firmware/erica-synths-perkons-hd-01/modmatrix-desktop",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "patcher",
+    "desktop",
+    "open-source"
+   ],
+   "devices": [
+    {
+     "id": "erica-synths-perkons-hd-01",
+     "name": "Erica Synths Pērkons HD-01",
+     "manufacturer": "Erica Synths",
+     "manufacturer_slug": "erica-synths"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.7.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/remixed123/modmatrix-desktop/releases/tag/v0.7.1",
+     "notes": "Opens the window wider, at 1280 pixels, to fit the Mod Matrix's new FLASH meter."
+    },
+    {
+     "version": "0.7.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/remixed123/modmatrix-desktop/releases/tag/v0.7.0",
+     "notes": "Adds What's New, Troubleshooting and About tabs and two Mod Matrix user guides, makes Check for Updates show only the app and Mod Matrix updates, and adds a first Linux archive that the release notes call untested."
+    }
+   ]
+  },
+  {
+   "id": "expert-sleepers-disting-nt/nt-helper",
+   "name": "nt_helper",
+   "url": "https://altstrument.org/firmware/expert-sleepers-disting-nt/nt-helper",
+   "kind": "tool",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "editor"
+   ],
+   "devices": [
+    {
+     "id": "expert-sleepers-disting-nt",
+     "name": "Expert Sleepers disting NT",
+     "manufacturer": "Expert Sleepers",
+     "manufacturer_slug": "expert-sleepers"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v2.64.1",
+     "date": "2026-11-20",
+     "url": "https://github.com/No-Such-Device/nt_helper/releases/tag/v2.64.1",
+     "notes": "Completes the partial v2.64.0 release with the Android builds. Adds MIDI view-change and MIDI/i2c bypass controls for firmware 1.20 mappings, which the notes say are covered by regression tests but not tried on hardware…"
+    },
+    {
+     "version": "v2.64.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/No-Such-Device/nt_helper/releases/tag/v2.64.0",
+     "notes": "Partial release, without the Android builds, superseded by v2.64.1."
+    }
+   ]
+  },
+  {
+   "id": "korg-electribe-2/blech-gelumpe",
+   "name": "BLECH and Kuhler's GELUMPE",
+   "url": "https://altstrument.org/firmware/korg-electribe-2/blech-gelumpe",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": true,
+   "tags": [
+    "patch",
+    "editor",
+    "emulator",
+    "scripting",
+    "plugins",
+    "fx",
+    "midi",
+    "open-source"
+   ],
+   "devices": [
+    {
+     "id": "korg-electribe-2",
+     "name": "Korg Electribe 2 / 2 Sampler",
+     "manufacturer": "Korg",
+     "manufacturer_slug": "korg"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.4.8",
+     "date": "2026-11-21",
+     "url": "https://github.com/KuhlerBuhler/kuhlers-gelumpe/releases/tag/v1.4.8",
+     "notes": "Adds a tube curve on the master output (BLECH > FEATURES > TUBE, with TUBE DRIVE and TUBE ASYM settings) that replaces Korg's soft clipper, on Hacktribe and on Korg's red and blue 2.02; the notes say it was heard on the…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-chocolate/mvave-chocolate-tui",
+   "name": "mvave-chocolate-tui",
+   "url": "https://altstrument.org/firmware/m-vave-chocolate/mvave-chocolate-tui",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "config-tool",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-chocolate",
+     "name": "M-VAVE Chocolate / Chocolate Plus",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.2.2",
+     "date": "2026-11-21",
+     "url": "https://github.com/WilsonNet/mvave-chocolate-tui/releases/tag/v0.2.2",
+     "notes": "Adds a README warning for a Plus that is recognised as the original and makes the install script retry transient network errors."
+    },
+    {
+     "version": "v0.2.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/WilsonNet/mvave-chocolate-tui/releases/tag/v0.2.1",
+     "notes": "The release build now fails when a checksum is missing."
+    },
+    {
+     "version": "v0.2.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/WilsonNet/mvave-chocolate-tui/releases/tag/v0.2.0",
+     "notes": "Adds the documentation site, a development guide and the release install script."
+    },
+    {
+     "version": "v0.1.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/WilsonNet/mvave-chocolate-tui/releases/tag/v0.1.1",
+     "notes": "Fixes the checksum check when checksums.txt uses ./ paths."
+    },
+    {
+     "version": "v0.1.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/WilsonNet/mvave-chocolate-tui/releases/tag/v0.1.0",
+     "notes": "First tagged release. Adds Chocolate Plus support, a pedal screen and mode switching, decodes the packed 7-bit configuration dump, writes to both RAM and flash, no longer overwrites the pedal when connecting and fixes t…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/arp-wav-09",
+   "name": "ARP WAV 09",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/arp-wav-09",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "arpeggiator",
+    "sequencer",
+    "drums",
+    "fx",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.0.6",
+     "date": "2026-11-21",
+     "url": "https://github.com/wav0902/wav-fm1/releases/tag/v1.0.6",
+     "notes": "The release page has no notes and holds only a checksum file. The commits since v1.0.5 rework the firmware source, the start-up image and the project's web page."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/b3-organ",
+   "name": "B3 ORGAN",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/b3-organ",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "fork",
+    "emulator",
+    "fx",
+    "usb-audio"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.6",
+     "date": "2026-11-20",
+     "url": "https://github.com/R-Jeb/setBfree-fm1/releases/tag/v0.6",
+     "notes": "Adds an output equalizer with bass, middle and treble bands, on the pedal screen and in the web editor, and recalibrates the overdrive against setBfree, so the drive range is now 0 to 20 and settings and programs 112 to…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/baile-tracker",
+   "name": "BAILE Tracker",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/baile-tracker",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "tracker",
+    "sequencer",
+    "chiptune",
+    "drums",
+    "synth-engine",
+    "fx",
+    "emulator",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.2",
+     "date": "2026-11-21",
+     "url": "https://github.com/saulofilho/baile-fm1/releases/tag/v0.2",
+     "notes": "The release page has no notes and holds baile-0.2.fwsc and a checksum file. The commits that day give each style one demo, add build notes and record BAILE 0.2 installed over 0.1 on an FM-1, with the on-device checklist…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/burger-studio-fm-1",
+   "name": "Burger Studio FM-1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/burger-studio-fm-1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sampler",
+    "drums",
+    "groovebox",
+    "sequencer",
+    "synth-engine",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.8.2-bs17",
+     "date": "2026-11-21",
+     "url": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs17",
+     "notes": "Gives the SAMPLE row its own 16 steps, set with the white keys and kept after power-off. The release notes call it a beta and say to back up first."
+    },
+    {
+     "version": "1.8.2-bs15",
+     "date": "2026-11-21",
+     "url": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs15",
+     "notes": "The clock source follows the USB cable, switching to internal when it is unplugged so PLAY works without NO CLOCK."
+    },
+    {
+     "version": "1.8.2-bs14",
+     "date": "2026-11-21",
+     "url": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs14",
+     "notes": "Adds SAMPLING pages for level, pitch, reverse and play mode, and a SAMPLE FX page, opened with EDIT on the SAMPLE row."
+    },
+    {
+     "version": "1.8.2-bs12",
+     "date": "2026-11-21",
+     "url": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs12",
+     "notes": "Uses the Burger Studio app's colours for each track and adds UNDO TAKE, which removes the newest recorded layer."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/caravel",
+   "name": "Caravel",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/caravel",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "fx",
+    "fork",
+    "editor",
+    "emulator",
+    "usb-audio",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/bonszaimusic/caravel/releases/tag/v1.1.0",
+     "notes": "Adds a HARMONY route map in BUILD and a chord selector, bars-left countdown and position line in PLAY, a new colour scheme, momentary FX macros and STASIS TONE with the LFO held, and CAPTURE QUANT. AFTERBURNER and the S…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/castletunia",
+   "name": "Castletunia",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/castletunia",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "generative",
+    "ambient",
+    "synth-engine",
+    "fm",
+    "drums",
+    "fx",
+    "game"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.4.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/provostprovost/castletunia/releases/tag/v1.4.0",
+     "notes": "Realms advance on their own after a number of turns, with a boss-defeat animation and a one-bar victory fanfare. SAVE toggles a stage lock, the starting realm is random and three realms are renamed."
+    },
+    {
+     "version": "1.3.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/provostprovost/castletunia/releases/tag/v1.3.0",
+     "notes": "Adds six synthesized backing-pad modes and five party voice engines, with no samples."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/chimera-vocal",
+   "name": "FM-1 Chimera Vocal",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/chimera-vocal",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth",
+    "voice",
+    "speech",
+    "vocal",
+    "physical-modelling",
+    "editor",
+    "emulator",
+    "port"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.9.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/shan-sherif/fm-1-chimera-vocal/releases/tag/v0.9.0",
+     "notes": "Adds an American alligator and an African elephant to the Bestiary on LFO, completing it. Much of their low rumble is below what the FM-1's speaker plays. Saved seal and songbird settings carry over."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/choppah",
+   "name": "CHOPPAH",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/choppah",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "sampler",
+    "drums",
+    "performance",
+    "fx",
+    "looper",
+    "generative",
+    "emulator",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.5.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/profikid/fm1-break-choppah/releases/tag/v1.5.1",
+     "notes": "Moves the split to HOME as its third part, after PERFORM and the GENERATOR; GLOBAL goes back to MIDI, PITCH and CHANNEL. Saved settings and patterns from 1.5 load as they were."
+    },
+    {
+     "version": "1.5",
+     "date": "2026-11-21",
+     "url": "https://github.com/profikid/fm1-break-choppah/releases/tag/v1.5",
+     "notes": "Adds a split that plays one bar of break A and one of break B, repitched to A's bar, with white keys 1 to 8 for A's slices and 9 to 16 for B's. Bluetooth audio out is removed to make room; Bluetooth MIDI stays."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/choralroot",
+   "name": "ChoralRoot FM-1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/choralroot",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "foundational",
+   "brick_risk": false,
+   "tags": [
+    "chords",
+    "synth-engine",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.43",
+     "date": "2026-11-21",
+     "url": "https://github.com/Quixotic7/ChoralRootFM1/releases/tag/v0.43",
+     "notes": "Adds a takeover mode for the Ableton Move in RemoteFM1, where ChoralRoot uses the Move's pads, steps, knobs and screen. On the FM-1 nothing changes from 0.42, and settings, sounds, loops and favorites carry over. The SM…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/cumbia",
+   "name": "Cumbia",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/cumbia",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "generative",
+    "sequencer",
+    "sampler",
+    "drums",
+    "voice",
+    "performance",
+    "fx",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.3",
+     "date": "2026-11-20",
+     "url": "https://github.com/alandaf-lab/cumbia-fm1/releases/tag/v1.0.3",
+     "notes": "The commit message says the clock is always internal now, because a session left by another Felucca-based firmware with an external clock stopped PLAY from starting. The release page only repeats the install note."
+    },
+    {
+     "version": "1.0.2",
+     "date": "2026-11-20",
+     "url": "https://github.com/alandaf-lab/cumbia-fm1/releases/tag/v1.0.2",
+     "notes": "The commit message says a damaged sound slot, overwritten by another firmware such as when returning to the official V16, is now reported as empty and reloaded by the installer, which fixes cut or clicking shouts 3, 4 a…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/cursed-os",
+   "name": "cursed os",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/cursed-os",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "acid",
+    "generative",
+    "midi",
+    "emulator",
+    "editor",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.20.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/cursedsound-music/CS_FM1/releases/tag/v0.20.0",
+     "notes": "Aimed at live performance. Keys are shown by name and Camelot code, the FM-1 keeps its last tempo when an external clock stops, and GLO > STAGE adds a live lock, phrase length, change timing and mono bass. HOME gains do…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/duell",
+   "name": "DUELL",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/duell",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "performance",
+    "fx",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.3.6",
+     "date": "2026-11-20",
+     "url": "https://github.com/oscillr/DUELL/releases/tag/v1.3.6",
+     "notes": "GitHub now builds and signs every package from the release's source. The notes say nothing changes on the unit."
+    },
+    {
+     "version": "1.3.5",
+     "date": "2026-11-20",
+     "url": "https://github.com/oscillr/DUELL/releases/tag/v1.3.5",
+     "notes": "Adds builds for the SMK-37 Pro, Elite and MKE-P37, with both parts on one screen, the faders for level and morph, the pads as PERFORM effects, a keyboard split at F#4 and a start-up guide. On both devices PAN shows L 10…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-bass-station",
+   "name": "FM1 Bass Station",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-bass-station",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "generative",
+    "editor",
+    "usb-midi",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/Kayman18/FM1-NovationBassStation/releases/tag/v1.0",
+     "notes": "Adds shaded knobs with position markers, cutoff in hertz on Home and Filter, and CC74 for cutoff and CC71 for resonance over USB or TRS MIDI, plus the Bass Station plug-in's CC105 and CC106. The release also attaches a…"
+    },
+    {
+     "version": "RC3",
+     "date": "2026-11-20",
+     "url": "https://github.com/Kayman18/FM1-NovationBassStation/releases/tag/RC3",
+     "notes": "Starts presets at 50% cutoff when recalled, shows cutoff and resonance below the page title when SELECT or ALGO turns, and shows cutoff as a percentage and in hertz. Attaches a clean-install M-Flasher image beside the .…"
+    },
+    {
+     "version": "RC2",
+     "date": "2026-11-20",
+     "url": "https://github.com/Kayman18/FM1-NovationBassStation/releases/tag/RC2",
+     "notes": "Redraws Home with a header and a larger preset-name panel, opens Presets with SEL, and gives the sequencer's Generate, Mutate and piano-roll editors larger grids with live values. The notes say the build and simulator t…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-electro",
+   "name": "FM1-Electro",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-electro",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "drums",
+    "sequencer",
+    "synth-engine",
+    "arpeggiator",
+    "fx"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.5.5-alpha",
+     "date": "2026-11-20",
+     "url": "https://github.com/robtron-byte/FM1-Electro-one/releases/tag/v0.5.5-alpha",
+     "notes": "Pre-release. Fixes live recording of held chords in STRINGS, which kept only the last key pressed; keys pressed together in one step are now stored as a chord (major, minor, seventh, suspended and others) when no chord…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-firmware-collection",
+   "name": "FM-1 Firmware Collection",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-firmware-collection",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "flasher",
+    "utility",
+    "research"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "builds-20261121-50",
+     "date": "2026-11-21",
+     "url": "https://github.com/2bbb/fm1-firmware-collection/releases/tag/builds-20261121-50",
+     "notes": "Latest build run; the release lists 12 built packages, among them fantasmogenesis's fntsmg-1, MishaMashinaMM's mashina-fm1-fw and Wulgaren's Araminta, and three failed builds."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-pocket-mac",
+   "name": "FM-1 Pocket for macOS",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-pocket-mac",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "ui",
+    "library",
+    "macos"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.9.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/slowphase/fm1-pocket-mac/releases/tag/v0.9.0",
+     "notes": "First release, a zipped app for Apple silicon Macs on macOS 14 or later. It adds the fm1-emu engine, which runs makers' original .fwsc packages, beside the .rfm1 player, with a recommended engine for each firmware, favo…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-rust",
+   "name": "fm1-rust",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-rust",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sdk",
+    "platform",
+    "rust",
+    "research"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "fm1/v0.1.2",
+     "date": "2026-11-21",
+     "url": "https://github.com/fm1-rust/fm1-rust/tree/fm1/v0.1.2",
+     "notes": "Git tag; no GitHub release page. It is the fm1 crate's version; rticx-pi32v2 and rticx-pi32v2-macro have their own 0.1.0 and 0.1.1 tags."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1-v-station",
+   "name": "FM1 V-Station",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1-v-station",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "synth-engine",
+    "editor",
+    "usb-midi",
+    "midi",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "RC",
+     "date": "2026-11-20",
+     "url": "https://github.com/Kayman18/FM1-VStation/releases/tag/RC",
+     "notes": "The release holds FM1-VStation-RC.fwsc. It promotes the eight-voice, eight-unison build to the release candidate with a second ENV page for voice mode, and reduces voice-stealing CPU peaks at 7x to 8x unison. The reposi…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fm1burger",
+   "name": "Burger Studio",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fm1burger",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "drums",
+    "synth-engine",
+    "midi",
+    "usb-midi",
+    "android"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v3.21-lab",
+     "date": "2026-11-20",
+     "url": "https://github.com/perawoga2-coder/fm1burger/releases/tag/v3.21-lab",
+     "notes": "Pre-release with a debug APK, the next lab build. The release notes say the FM1 Burger, Burger Studio and Burger Studio Lab apps install side by side."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fmav-1",
+   "name": "FMav-1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fmav-1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "synth",
+    "oscillator",
+    "fx",
+    "chorus",
+    "delay",
+    "reverb",
+    "midi",
+    "usb-midi",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.6.4",
+     "date": "2026-11-20",
+     "url": "https://github.com/wootr0p/fmav1/releases/tag/v0.6.4",
+     "notes": "Refines the screen reader. A held section button reads that page's knob names without values, REC held plus a knob says the value, an unassigned knob says NOT ASSIGNED, the FM-1's own voice announces the firmware versio…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fmutate",
+   "name": "FMutate",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fmutate",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "performance",
+    "midi",
+    "usb-midi",
+    "ui"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.2.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/GenericJam/fmutate/releases/tag/v0.2.0",
+     "notes": "Signed with a new release key, so 0.1.0 must be uninstalled first, which removes its saved data. Adds native builds of Hub firmwares (130 at release, from FMutate cartridges), a page for each firmware with its README, M…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fmutate-cartridges",
+   "name": "FMutate cartridges",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fmutate-cartridges",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "ci",
+    "signed-builds",
+    "android",
+    "ios"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "build-20261121-15",
+     "date": "2026-11-21",
+     "url": "https://github.com/GenericJam/fmutate-cartridges/releases/tag/build-20261121-15",
+     "notes": "Cartridges built by the 2026-11-21 run, among them FoMni-1 0.5, FRASIL 3.4, Caravel, DUELL and X0X, each from its firmware's pinned source commit."
+    },
+    {
+     "version": "build-20261120-14",
+     "date": "2026-11-20",
+     "url": "https://github.com/GenericJam/fmutate-cartridges/releases/tag/build-20261120-14",
+     "notes": "Cartridges built by the 2026-11-20 run, each from its firmware's pinned source commit."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/fomni-1",
+   "name": "FoMni-1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/fomni-1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "foundational",
+   "brick_risk": false,
+   "tags": [
+    "chords",
+    "synth-engine",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.5",
+     "date": "2026-11-21",
+     "url": "https://github.com/charlesvestal/fm1-fomni/releases/tag/v0.5",
+     "notes": "Saves only when SAVE is pressed instead of automatically, with a dot marking unsaved changes. Adds a Strings setting on the Setup page (Ring keeps ringing strings on their old notes, Follow moves them to the new chord)…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/frasil",
+   "name": "FRASIL",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/frasil",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "ambient",
+    "synth-engine",
+    "fx",
+    "reverb",
+    "chords",
+    "scales",
+    "midi",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "3.4",
+     "date": "2026-11-21",
+     "url": "https://github.com/styvesgoupil/frasil/releases/tag/v3.4",
+     "notes": "Adds TRACKS LINK, a HOME page where the other tracks follow the drone's or bass's chord along the scale, and VINYL, AM and PHONE media for LOFI TAPE. Also adds a LEAD channel for playing the lead from a keyboard or DAW,…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/h1",
+   "name": "h1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/h1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "looper",
+    "sequencer",
+    "fx",
+    "midi",
+    "emulator",
+    "ui"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.3.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/jakehandy/h1/releases/tag/v0.3.0",
+     "notes": "Adds the TILT and PLUNK drum machines, a HOOVER algorithm on LAVA, USB host for a keyboard (hold OCT- and OCT+) and a loop with room for 1,024 notes and up to 128 bars. A playing loop now survives a power-off, ECHO no l…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/jieli-usbkey-unbrick",
+   "name": "jieli-usbkey-unbrick",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/jieli-usbkey-unbrick",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "flasher",
+    "loader",
+    "utility",
+    "backup"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/Tom-Rfid/jieli-usbkey-unbrick/releases/tag/v1.0.0",
+     "notes": "First release. Reports the whole rescue (key, backup, firmware written, unit back) as tested on an SMK-37 Elite and an FM-1 of the latest board, both from a Raspberry Pi 5, with the SMK-37 Pro and the Raspberry Pi 4 and…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/kitten-synths",
+   "name": "Kitten Synths",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/kitten-synths",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "fx",
+    "performance",
+    "midi",
+    "usb-audio",
+    "editor"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "2.8-kitten.14",
+     "date": "2026-11-20",
+     "url": "https://github.com/BlackKittenDevices/Kitten-Synths/releases/tag/v2.8-kitten.14",
+     "notes": "Marked pre-release. Renders the second drum track on core 0 when both drum tracks sound, so dense fills above about 155 BPM no longer drop audio, and gives each drum track its own voice and filter buffers. Also adds ser…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/loom-8",
+   "name": "LOOM-8",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/loom-8",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "sampler",
+    "synth-engine",
+    "drums",
+    "chords",
+    "fx",
+    "arpeggiator",
+    "emulator",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.17.1",
+     "date": "2026-11-20",
+     "url": "https://github.com/charlesvestal/fm1-loom/releases/tag/v0.17.1",
+     "notes": "The jacquard engine's picture shows its real wavetable, with the sixteen frames stacked front to back and the sounding frame drawn bright. The manual explains recording over USB on Windows. Projects carry over."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/matryoshka",
+   "name": "Matryoshka",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/matryoshka",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "modular",
+    "editor",
+    "emulator",
+    "patch",
+    "sequencer",
+    "arpeggiator",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.23.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/glvno/matryoshka/releases/tag/v1.23.0",
+     "notes": "Firmware release (patch format 65). Adds MIDI learn on the FM-1 (GLO > MIDI) and in the editor, with up to 16 learned controls saved in the patch, makes Briefcase 3's joystick move the filter and oscillator 1, and plays…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/mono2k",
+   "name": "MONO2K",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/mono2k",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "synth-engine",
+    "fx",
+    "lfo",
+    "emulator",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.13",
+     "date": "2026-11-20",
+     "url": "https://github.com/InigoHernandez/mono2k/releases/tag/v1.13",
+     "notes": "Every note's attack now starts from silence and runs its whole time, with the old note fading out in 3 ms. In GRID an empty step pressed on a POLY lead places the last chord played. Fixes a cut-off READY message and mak…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/mope-1",
+   "name": "MOPE-1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/mope-1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "wavetable",
+    "sequencer",
+    "drums",
+    "fx",
+    "performance",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.5.0 beta",
+     "date": "2026-11-21",
+     "url": "https://github.com/slothpallas/mope-1/releases/tag/v0.5.0",
+     "notes": "Pre-release. HOME opens four macro knobs (Eyes, Bite, Nerves, Room), SEL and FX swap back, and three effects are added (Swirl, Burn, Mumble). White keys beside a held punch scale it, ARP plays the keys instead of the lo…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/nauclerus",
+   "name": "Nauclerus",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/nauclerus",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "drums",
+    "sequencer",
+    "synth-engine",
+    "generative",
+    "fx",
+    "performance",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/Mr-Roboto/nauclerus/releases/tag/v1.1.0",
+     "notes": "Adds dotted delay times (4D, 8D, 16D) and delay-only 4T and 32T choices, with 8D as the factory default for new projects, a stereo ping-pong delay mode, four more LFO destinations (distortion, chorus, delay, reverb), so…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/neon",
+   "name": "NEON",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/neon",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "synth-engine",
+    "sequencer",
+    "drums",
+    "fx",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.2",
+     "date": "2026-11-20",
+     "url": "https://github.com/LotionOnTheSkin/NEON/releases/tag/v0.2",
+     "notes": "Replaces the sun on the splash, the DRIVE visualizer and the Firmware Hub card with the Neon Summers logo, and draws the logo in every build. The release page itself only gives install steps and a browser emulator link."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/orgigs",
+   "name": "OrGigs",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/orgigs",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "organ",
+    "polyphonic",
+    "fx",
+    "midi",
+    "usb-midi",
+    "emulator"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1",
+     "date": "2026-11-20",
+     "url": "https://github.com/orgelbobo/orgigs/releases/tag/v1.1",
+     "notes": "On the Elite an expression pedal sets the swell (CC 11) after learning its travel, with a PEDAL setting of AUTO, SUSTAIN or SWELL. On the FM-1 SEL + FX opens an insert effect (chorus, wah, auto-wah, flanger, phaser, rin…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/penumbra",
+   "name": "Penumbra",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/penumbra",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "ambient",
+    "synth-engine",
+    "looper",
+    "fx",
+    "reverb",
+    "delay",
+    "performance",
+    "midi",
+    "usb-audio",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.9",
+     "date": "2026-11-20",
+     "url": "https://github.com/MadMooneyham/Penumbra/releases/tag/v1.9",
+     "notes": "A KNOBS setting under SYSTEM can turn HOME's seven knobs into a MIDI controller on CC 74 to 80 for a DAW, and 22 more HOME controls get MIDI CCs both ways (66 in all) so moves can be recorded and played back. The packag…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/plissken",
+   "name": "Plissken",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/plissken",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "drums",
+    "fx",
+    "sampler",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.15",
+     "date": "2026-11-20",
+     "url": "https://github.com/dustekin/plissken/releases/tag/v0.15",
+     "notes": "The release page lists only a changelog link. The commits before it add a theme called The Fog and a centred start-up screen."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/prysm",
+   "name": "Prysm",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/prysm",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "oscillator",
+    "wavetable",
+    "fm",
+    "filter",
+    "lfo",
+    "envelopes",
+    "fx",
+    "reverb",
+    "delay",
+    "arpeggiator",
+    "sequencer",
+    "usb-audio",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.7",
+     "date": "2026-11-20",
+     "url": "https://github.com/NicholasPratt/Prysm/releases/tag/v1.7",
+     "notes": "Adds a ROUTE screen with a pin matrix for routing, a compressor, an output safety limiter, six-channel USB audio for recording stems, drum pan, SYNC oscillators, Juno and Dimension chorus modes, and snare ghost notes an…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/quantum-gammawave",
+   "name": "Quantum GammaWave",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/quantum-gammawave",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "generative",
+    "fx",
+    "filter",
+    "editor",
+    "emulator",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.6.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/Guillel51/Quantum-GammaWave/releases/tag/v1.6.0",
+     "notes": "Gathers eight stages of work into one package. Adds a SYNC wave as the eighth PHASE wave, PEDAL and ALBERTI arpeggiator modes, HIJAZ and HUNG MINOR scales, dotted LFO divisions up to 1/64, a CHANCE view of the whole pat…"
+    },
+    {
+     "version": "1.5.29",
+     "date": "2026-11-21",
+     "url": "https://github.com/Guillel51/Quantum-GammaWave/releases/tag/v1.5.29",
+     "notes": "Fixes the web installer rejecting every package published since 1.5.26 as damaged, because it looked for a fixed file name instead of the one in the build record. Installing from an official V16 unit now asks for the re…"
+    },
+    {
+     "version": "1.5.24",
+     "date": "2026-11-20",
+     "url": "https://github.com/Guillel51/Quantum-GammaWave/releases/tag/v1.5.24",
+     "notes": "Adds a PLUK LFO shape that falls as a pulse within each cycle, filter resonance as a modulation destination and NOTCH and SHELF filter types, without new parameter ids; saved presets load as before. The notes say it cos…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/quartz",
+   "name": "QUARTZ",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/quartz",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "generative",
+    "synth-engine",
+    "drums",
+    "fx",
+    "arpeggiator",
+    "emulator",
+    "web"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.10",
+     "date": "2026-11-21",
+     "url": "https://github.com/F0nski/quartz/releases/tag/v0.10",
+     "notes": "Adds PRINT, which writes a generative source's loop into steps, live transposition, Euclidean fills, x2 and NUDGE edits, SOLO, LATCH for punch-ins, FILTER and TAPE inserts, kit p-locks and PAN and INSERT as LFO destinat…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/ravel",
+   "name": "Ravel",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ravel",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "sequencer",
+    "granular",
+    "drums",
+    "fx",
+    "arpeggiator",
+    "emulator",
+    "generative"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.43.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.43.1",
+     "notes": "Rebuilds the INSERT TAPE effect with a deeper, slower warble, a second tape head that sways against the first, darker highs and tape hiss. A track already using TAPE sounds darker and wider; projects keep their settings."
+    },
+    {
+     "version": "1.43.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.43.0",
+     "notes": "Adds INSERT TAPE, a slowed, worn tape warble on the track with TUNE, AMOUNT and MIX controls."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/rudimentseq",
+   "name": "RudimentSeq",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/rudimentseq",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "drums",
+    "groovebox",
+    "arpeggiator",
+    "midi",
+    "usb-midi",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "r0.1.3",
+     "date": "2026-11-20",
+     "url": "https://github.com/RudimentSeq/RudimentSeq-FM1/releases/tag/r0.1.3",
+     "notes": "Adds PRINT, which writes a track's rudiment lane into ordinary steps (drum tracks land on lanes by note) so the step tools can edit it, and shows the RUDI note settings as note names with octaves."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/ruido",
+   "name": "Ruido",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/ruido",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "oscillator",
+    "filter",
+    "lfo",
+    "fx",
+    "performance",
+    "midi",
+    "emulator",
+    "drone"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.7.2",
+     "date": "2026-11-21",
+     "url": "https://github.com/miguelhd/ruido/releases/tag/v0.7.2",
+     "notes": "Boots with the audio output muted until PLAY/STOP is pressed, adds SHIFT labels to the SEL keyboard maps and clarifies the SAVE and DELETE scene labels."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/slap-5",
+   "name": "SLAP-5",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/slap-5",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "sequencer",
+    "drums",
+    "synth-engine",
+    "fx",
+    "chords",
+    "editor",
+    "emulator",
+    "web"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.1.25-hardware-testing",
+     "date": "2026-11-21",
+     "url": "https://github.com/CodingSlapfu/SLAP-5/releases/tag/v0.1.25-hardware-testing",
+     "notes": "Pre-release candidate; physical install, sustained audio and LCD timing for this build are pending. Adds five taller HOME track cards, a Vinyl Stop effect, independent Live FX assignments, eight new saw programs, V11 ba…"
+    },
+    {
+     "version": "v0.1.24-hardware-testing",
+     "date": "2026-11-21",
+     "url": "https://github.com/CodingSlapfu/SLAP-5/releases/tag/v0.1.24-hardware-testing",
+     "notes": "Pre-release; the 0.1.25 notes record successful hardware feedback from the author for this build. Adds six-operator FM with three routings, four interpolated wavetable frames, drum generation of one to four bars and a S…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/sloop-3",
+   "name": "SLOOP 3",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/sloop-3",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "sampler",
+    "fx",
+    "performance",
+    "usb-audio",
+    "midi",
+    "fm",
+    "physical-modeling",
+    "editor"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v3.4.1-beta",
+     "date": "2026-11-20",
+     "url": "https://github.com/isod89/sloop3-fm1/releases/tag/v3.4.1-beta",
+     "notes": "Pre-release. Fixes two causes of random freezes, a CPU OVERLOAD message drawn in the middle of a save and interrupts running on the bootloader's stack, and levels all 156 sounds and the 32 synthesised drum kits against…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/sloop-dub",
+   "name": "SLOOP Dub",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/sloop-dub",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "fx",
+    "performance",
+    "emulator",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.8",
+     "date": "2026-11-20",
+     "url": "https://github.com/altessproduction/sloop-dub-fm1/releases/tag/v1.8",
+     "notes": "The bank holds all 75 riddims of the author's Riddim Collection page, each a 64-step loop with bass, skank, one more instrument and drums, stored compressed and expanded at load. The 27 riddims of 1.7 play as before, an…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/sy1",
+   "name": "SY1",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/sy1",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "synth",
+    "virtual-analog",
+    "polyphonic",
+    "presets",
+    "fx",
+    "arpeggiator",
+    "emulator",
+    "editor",
+    "web-midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/fenderberg/fm1-sy1/releases/tag/v1.0.0",
+     "notes": "Adds a QUAD mode with four sounds on MIDI channels 1 to 4, made for the Circuit Tracks, with an optional split of parts 1 and 2 to the left output and parts 3 and 4 to the right. Every Circuit macro knob is mapped and t…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/u0u",
+   "name": "U0U",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/u0u",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "drums",
+    "sequencer",
+    "fx",
+    "synth-engine",
+    "euclidean",
+    "emulator",
+    "web"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.4",
+     "date": "2026-11-20",
+     "url": "https://github.com/youlisse/U0U/releases/tag/v0.4",
+     "notes": "Pre-release; the KIT knob offers four kits, 808, CLASSIC, FM and TIGHT, two of them ported from Mutable Instruments Peaks' drum models, and each lane gets a second page with EXTRA, ACCENT and model-specific knobs. A sav…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-fm-1/x0x",
+   "name": "X0X",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/x0x",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "foundational",
+   "brick_risk": false,
+   "tags": [
+    "drums",
+    "synth-engine",
+    "sequencer",
+    "fx",
+    "usb-audio",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.3",
+     "date": "2026-11-21",
+     "url": "https://github.com/charlesvestal/fm1-x0x/releases/tag/v1.3",
+     "notes": "Rescales the 303's DRIVE and converts saved projects to it, removes clicks when turning DRIVE or VOLUME, adds long 303 notes that last until a later step, and live recording that keeps held key lengths as ties and slide…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-pocket-amp/pocket-amp-tools",
+   "name": "Pocket AMP Tools",
+   "url": "https://altstrument.org/firmware/m-vave-pocket-amp/pocket-amp-tools",
+   "kind": "tool",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "flasher",
+    "updater",
+    "desktop",
+    "backup",
+    "editor",
+    "midi"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-pocket-amp",
+     "name": "M-VAVE Pocket AMP",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "pocket_amp_tools-v0.5.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/vitoramaral10/pocket-amp-tools/releases/tag/pocket_amp_tools-v0.5.0",
+     "notes": "First release cut by release-please. Its notes are a changelog of the whole project, and the only code change since v0.4.0 is a fix that scrubs the home folder from error reports."
+    }
+   ]
+  },
+  {
+   "id": "m-vave-smk-37/choralroot-smk37",
+   "name": "ChoralRoot SMK-37",
+   "url": "https://altstrument.org/firmware/m-vave-smk-37/choralroot-smk37",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "chords",
+    "synth-engine",
+    "performance"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.43-smk37",
+     "date": "2026-11-21",
+     "url": "https://github.com/Quixotic7/ChoralRootFM1/releases/tag/v0.43-smk37",
+     "notes": "The SMK-37 packages of 0.43 (Pro, Elite, MKE-P37, each with a \"1core\" twin). The notes say 0.43 plays exactly as 0.42 on the SMK-37 and keeps settings, sounds, loops and favorites; its new feature is a takeover of the A…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-smk-37/classic-tabby",
+   "name": "Classic Tabby",
+   "url": "https://altstrument.org/firmware/m-vave-smk-37/classic-tabby",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "tracker",
+    "midi",
+    "fork",
+    "editor"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "tabby-v1.2.1",
+     "date": "2026-11-21",
+     "url": "https://github.com/SeattleUser0/classic-tabby/releases/tag/tabby-v1.2.1",
+     "notes": "Any button, pad, key or knob press takes an on-screen message away at once, PLAY, STOP and REC stay readable while a message is up, and a muted internal sound no longer loads the sound engine. Same storage layout; full…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-smk-37/dnbox",
+   "name": "DnBOX",
+   "url": "https://altstrument.org/firmware/m-vave-smk-37/dnbox",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "groovebox",
+    "drums",
+    "sequencer",
+    "synth-engine",
+    "usb-audio",
+    "usb-midi",
+    "performance",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.0.26",
+     "date": "2026-11-21",
+     "url": "https://github.com/gobbajogger/DnBOX/releases/tag/v0.0.26",
+     "notes": "Adds a Drone (String Machine) engine, a Juno engine with a shared chorus and held-key chords on the polyphonic synth slots, and clearer SMK-37 Elite and Pro names over USB and Bluetooth. Includes a boot-guard correction…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-smk-37/sloop-smk37-milomeowzers",
+   "name": "SLOOP SMK-37 (multichannel audio and Mewcoder)",
+   "url": "https://altstrument.org/firmware/m-vave-smk-37/sloop-smk37-milomeowzers",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "sequencer",
+    "synth-engine",
+    "drums",
+    "sampler",
+    "fx",
+    "usb-audio",
+    "vocoder",
+    "performance",
+    "midi",
+    "editor",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-smk-37",
+     "name": "M-VAVE SMK-37 Pro / Elite",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "mewcoder+harmoniser-v0.3-pre",
+     "date": "2026-11-21",
+     "url": "https://github.com/MiloMeowzers/mewcoder-smk37/releases/tag/mewcoder%2Bharmoniser-v0.3-pre",
+     "notes": "Pre-release for the SMK-37 Elite, marked early testing; gives the harmoniser lanes 6 dB of headroom and an input limiter, adds lane input meters on a fader bank, selectable punch-in effects with BEAT REPEAT, a STEM LEVE…"
+    },
+    {
+     "version": "mewcoder-v0.2",
+     "date": "2026-11-21",
+     "url": "https://github.com/MiloMeowzers/mewcoder-smk37/releases/tag/mewcoder-v0.2",
+     "notes": "Adds selectable punch-in effects with a per-track BEAT REPEAT, a STEM LEVEL setting of -18, -12 or -6 dB, smoother vocoder envelopes, a FULL HQ quality switch and a POLY CAP AUTO setting that limits FM6 to four voices w…"
+    }
+   ]
+  },
+  {
+   "id": "m-vave-tank-g/ultrarig",
+   "name": "UltraRig",
+   "url": "https://altstrument.org/firmware/m-vave-tank-g/ultrarig",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "fx",
+    "amp-sim",
+    "nam",
+    "ir",
+    "editor",
+    "android"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-blackbox",
+     "name": "M-VAVE Blackbox",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-tank-b",
+     "name": "M-VAVE Tank-B",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    },
+    {
+     "id": "m-vave-tank-g",
+     "name": "M-VAVE Tank-G",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "alpha13.1-blackbox",
+     "date": "2026-11-20",
+     "url": "https://github.com/manuaguirre9/ultrarig/releases/tag/alpha13.1-blackbox",
+     "notes": "A build for the M-VAVE Black Box, with the whole UltraRig chain, Bluetooth music, the USB sound card and the editor on its screen. The notes warn of a very short audio dropout every minute or two when recording over USB…"
+    }
+   ]
+  },
+  {
+   "id": "mutable-instruments-beads/beads-tuneup",
+   "name": "Beads Tuneup",
+   "url": "https://altstrument.org/firmware/mutable-instruments-beads/beads-tuneup",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "granular",
+    "fx",
+    "bugfixes"
+   ],
+   "devices": [
+    {
+     "id": "mutable-instruments-beads",
+     "name": "Mutable Instruments Beads",
+     "manufacturer": "Mutable Instruments",
+     "manufacturer_slug": "mutable-instruments"
+    }
+   ],
+   "releases": [
+    {
+     "version": "beads-tuneup-2026.11.20",
+     "date": "2026-11-21",
+     "url": "https://github.com/insolentconstruct/eurorack/releases/tag/beads-tuneup-2026.11.20",
+     "notes": "Pre-release on GitHub. Moves the audio output one frame later to address the historical left-channel click, makes the reverb cheaper with identical sound and notes a manual-gain erratum. The notes say it was tested on o…"
+    }
+   ]
+  },
+  {
+   "id": "mutable-instruments-rings/sgnir",
+   "name": "eurorack-mi-sgnir",
+   "url": "https://altstrument.org/firmware/mutable-instruments-rings/sgnir",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "physical-modeling",
+    "modes",
+    "performance",
+    "calibration",
+    "allpass",
+    "open-source"
+   ],
+   "devices": [
+    {
+     "id": "mutable-instruments-rings",
+     "name": "Mutable Instruments Rings",
+     "manufacturer": "Mutable Instruments",
+     "manufacturer_slug": "mutable-instruments"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.2.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/m9dfukc/eurorack-mi-sgnir/releases/tag/v0.2.0",
+     "notes": "Adds Schliere L, a 98-stage chain as a second variant cycled with the right button, and cuts the Schliere processor load by about a quarter."
+    },
+    {
+     "version": "v0.1.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/m9dfukc/eurorack-mi-sgnir/releases/tag/v0.1.0",
+     "notes": "First release, with frequency locking, the stricter calibration and the Schliere bank as a third bank."
+    }
+   ]
+  },
+  {
+   "id": "polyend-tracker-plus/modular-trackular-plus",
+   "name": "Modular-Trackular Plus",
+   "url": "https://altstrument.org/firmware/polyend-tracker-plus/modular-trackular-plus",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "fork",
+    "platform",
+    "midi",
+    "sequencer",
+    "tracker"
+   ],
+   "devices": [
+    {
+     "id": "polyend-tracker-plus",
+     "name": "Polyend Tracker+",
+     "manufacturer": "Polyend",
+     "manufacturer_slug": "polyend"
+    }
+   ],
+   "releases": [
+    {
+     "version": "CE_20261120",
+     "date": "2026-11-20",
+     "url": "https://github.com/FatRodzianko/Modular-Trackular-Plus/releases/tag/CE_20261120",
+     "notes": "Rebased on Polyend's Tracker CE main at cf8bd7b. A sample import that fails partway frees its memory, project saves stop cleanly before the Sample Loader, exports and the Firmware list open, and exported project samples…"
+    }
+   ]
+  },
+  {
+   "id": "portmaster-compatible-handhelds/pockettracker",
+   "name": "PocketTracker",
+   "url": "https://altstrument.org/firmware/portmaster-compatible-handhelds/pockettracker",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "established",
+   "brick_risk": false,
+   "tags": [
+    "tracker",
+    "sampler",
+    "sequencer",
+    "open-source"
+   ],
+   "devices": [
+    {
+     "id": "miyoo-miyoo-mini",
+     "name": "Miyoo Mini",
+     "manufacturer": "Miyoo",
+     "manufacturer_slug": "miyoo"
+    },
+    {
+     "id": "portmaster-compatible-handhelds",
+     "name": "PortMaster PortMaster-compatible handhelds",
+     "manufacturer": "PortMaster",
+     "manufacturer_slug": "portmaster"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.9.9.3",
+     "date": "2026-11-21",
+     "url": "https://github.com/conanizer/pockettracker/releases/tag/v0.9.9.3",
+     "notes": "Adds the MACRO instrument type with 47 Braids models, millisecond envelopes with a curve row, more modulation sources, three new filters, font and letter case choices, a hints strip and play-from-cursor on CHAIN. DRIVE…"
+    }
+   ]
+  },
+  {
+   "id": "roland-d-70/bhd-70",
+   "name": "BHD-70",
+   "url": "https://altstrument.org/firmware/roland-d-70/bhd-70",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "emulator",
+    "plugin",
+    "au",
+    "macos",
+    "synth-engine",
+    "sysex",
+    "midi-learn",
+    "research"
+   ],
+   "devices": [
+    {
+     "id": "roland-d-70",
+     "name": "Roland D-70",
+     "manufacturer": "Roland",
+     "manufacturer_slug": "roland"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.9",
+     "date": "2026-11-21",
+     "url": "https://github.com/Bronislavus/BHD-70/releases/tag/v0.9",
+     "notes": "Pre-release and first GitHub release, which the author calls a beta. It carries a signed and notarised macOS disk image for Apple Silicon and Intel and a zip of the full source, and needs macOS 13 or later and dumps fro…"
+    }
+   ]
+  },
+  {
+   "id": "synthstrom-deluge/bribeluge",
+   "name": "BRIBELUGE",
+   "url": "https://altstrument.org/firmware/synthstrom-deluge/bribeluge",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": false,
+   "tags": [
+    "fork",
+    "drums",
+    "synth-engine",
+    "sequencer",
+    "fx",
+    "sampler",
+    "swing"
+   ],
+   "devices": [
+    {
+     "id": "synthstrom-deluge",
+     "name": "Synthstrom Audible Deluge",
+     "manufacturer": "Synthstrom Audible",
+     "manufacturer_slug": "synthstrom-audible"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.36",
+     "date": "2026-11-21",
+     "url": "https://github.com/thisisbribery/deluge-bribes-v1/releases/tag/v1.36",
+     "notes": "The companion gains a WAVE panel with a 3D view of the wavetable and every note moving through it. The WAVE presets return CUSTOM 3 to LFO 1 on the position, and 128 BROPHET and 9 DX7 presets are retuned to play C on C."
+    },
+    {
+     "version": "v1.35",
+     "date": "2026-11-21",
+     "url": "https://github.com/thisisbribery/deluge-bribes-v1/releases/tag/v1.35",
+     "notes": "The companion gains a BROPHET knob panel and syncs its panels faster, and a BROPHET vibrato bug is fixed."
+    },
+    {
+     "version": "v1.34",
+     "date": "2026-11-21",
+     "url": "https://github.com/thisisbribery/deluge-bribes-v1/releases/tag/v1.34",
+     "notes": "The companion gains a BRUNO106 slider panel."
+    }
+   ]
+  },
+  {
+   "id": "valeton-gp-200/vltn-tone-studio",
+   "name": "VLTN Tone Studio",
+   "url": "https://altstrument.org/firmware/valeton-gp-200/vltn-tone-studio",
+   "kind": "tool",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "editor",
+    "librarian",
+    "presets",
+    "midi",
+    "usb-midi",
+    "web-midi",
+    "nam",
+    "ir",
+    "sysex"
+   ],
+   "devices": [
+    {
+     "id": "valeton-gp-200",
+     "name": "Valeton GP-200",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    },
+    {
+     "id": "valeton-gp-200lt",
+     "name": "Valeton GP-200LT",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.0.0",
+     "date": "2026-11-21",
+     "url": "https://github.com/grzmol/VLTN-Tone-Studio/releases/tag/v1.0.0",
+     "notes": "Adds renaming of a SnapTone or user IR on the GP-200, drum kit layers with a room control, solo scales on the neck for the song's key, and song maps that set sections, drums, bass and chords for a song in one import. Se…"
+    }
+   ]
+  },
+  {
+   "id": "valeton-gp-5/dreamcatcher",
+   "name": "Dreamcatcher",
+   "url": "https://altstrument.org/firmware/valeton-gp-5/dreamcatcher",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "fx",
+    "delay",
+    "looper",
+    "granular",
+    "ambient",
+    "glitch",
+    "usb-midi"
+   ],
+   "devices": [
+    {
+     "id": "valeton-gp-5",
+     "name": "Valeton GP-5",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.4.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/Dreamcatcher/releases/tag/v1.4.0",
+     "notes": "Adds tempo sync on the main page, with a Free or Sync switch and a BPM setting that make time, rate, length and grain follow note values, saved with each preset. The loop level also sets how much of the loop reaches the…"
+    }
+   ]
+  },
+  {
+   "id": "valeton-gp-5/nam-loader",
+   "name": "NAM Loader",
+   "url": "https://altstrument.org/firmware/valeton-gp-5/nam-loader",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "fx",
+    "nam",
+    "amp-modeler",
+    "neural",
+    "platform"
+   ],
+   "devices": [
+    {
+     "id": "valeton-gp-5",
+     "name": "Valeton GP-5",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v1.3.1",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/NAM-Loader/releases/tag/v1.3.1",
+     "notes": "Adds a Capture parameter so a computer can switch the capture that is playing. Nothing else changes from 1.3. On OpenGP5 0.8.0-alpha, for use with Launchpad 0.3.0."
+    },
+    {
+     "version": "v1.3.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/NAM-Loader/releases/tag/v1.3.0",
+     "notes": "Covers 1.1 to 1.3. 30 capture slots and a bank of 12 cab IRs that any capture can use, a noise gate and three-band EQ for each capture, impulse responses from WAV files, captures at 48 kHz and a faster screen. On OpenGP…"
+    }
+   ]
+  },
+  {
+   "id": "valeton-gp-5/opengp5",
+   "name": "OpenGP5",
+   "url": "https://altstrument.org/firmware/valeton-gp-5/opengp5",
+   "kind": "firmware",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "platform",
+    "sdk",
+    "fx",
+    "usb-midi",
+    "web",
+    "flasher"
+   ],
+   "devices": [
+    {
+     "id": "valeton-gp-5",
+     "name": "Valeton GP-5",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "0.8.0-alpha",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/OpenGP5/releases/tag/v0.8.0-alpha",
+     "notes": "Pre-release. Adds a UI kit for settings pages, a simulator and a firmware template, removes the 0.6 API, makes the audio link restart itself when it gets no exchange and keeps the sound off until the DSP has its setting…"
+    }
+   ]
+  },
+  {
+   "id": "valeton-gp-5/opengp5-launchpad",
+   "name": "OpenGP5 Launchpad",
+   "url": "https://altstrument.org/firmware/valeton-gp-5/opengp5-launchpad",
+   "kind": "tool",
+   "status": "active",
+   "quality": null,
+   "brick_risk": true,
+   "tags": [
+    "flasher",
+    "editor",
+    "backup",
+    "nam",
+    "presets",
+    "usb-midi",
+    "desktop"
+   ],
+   "devices": [
+    {
+     "id": "valeton-gp-5",
+     "name": "Valeton GP-5",
+     "manufacturer": "Valeton",
+     "manufacturer_slug": "valeton"
+    }
+   ],
+   "releases": [
+    {
+     "version": "v0.3.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/Launchpad/releases/tag/v0.3.0",
+     "notes": "Redesigns the Tones page for NAM Loader 1.3 with one list of captures and IRs, play-on-pedal, rename, replace and gate and EQ controls, and retries a MIDI service that is not ready at start-up. Bundles Dreamcatcher 1.4.…"
+    },
+    {
+     "version": "v0.2.0",
+     "date": "2026-11-20",
+     "url": "https://github.com/OpenGP5/Launchpad/releases/tag/v0.2.0",
+     "notes": "Works with any OpenGP5 firmware, with a Live settings page, backups, the firmware catalog and a developer page for firmware authors. Adds NAM Loader 1.3's cab IR bank and Dreamcatcher 1.4's tempo sync."
+    }
+   ]
+  }
+ ],
+ "untagged_updates": 48,
+ "hidden_by_filters": 0
+}
