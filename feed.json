@@ -2,7 +2,7 @@
  "version": 1,
  "title": "CFW digest",
  "description": "New custom firmware, tools and releases for music hardware, from the altstrument.org catalog.",
- "updated": "2026-11-20T23:24:24Z",
+ "updated": "2026-11-21T00:18:48Z",
  "source": {
   "name": "altstrument.org",
   "url": "https://altstrument.org",
@@ -39,7 +39,9 @@
      "devices": [
       {
        "id": "akai-mpc-live",
-       "name": "Akai Professional MPC Live / Live II / X / One / Key 61"
+       "name": "Akai Professional MPC Live / Live II / X / One / Key 61",
+       "manufacturer": "Akai Professional",
+       "manufacturer_slug": "akai-professional"
       }
      ],
      "summary": "VST2 plugin for MPC OS 3.10.1 and later that ports the six Felucca synthesis engines to one eight-voice stereo instrument with a custom touchscreen skin, eight programs, a stereo delay and a room reverb.",
@@ -63,7 +65,9 @@
      "devices": [
       {
        "id": "anbernic-rg35xx",
-       "name": "Anbernic RG35XX series"
+       "name": "Anbernic RG35XX series",
+       "manufacturer": "Anbernic",
+       "manufacturer_slug": "anbernic"
       }
      ],
      "summary": "Four-track generative MIDI step sequencer for the Anbernic RG40XX V on Knulli, written to drive an M-VAVE FM-1 running Felucca over USB, with scale-aware pattern generators and slow pattern evolution.",
@@ -90,7 +94,9 @@
      "devices": [
       {
        "id": "hermetic-modular-alchemy-lab",
-       "name": "Hermetic Modular Alchemy Lab"
+       "name": "Hermetic Modular Alchemy Lab",
+       "manufacturer": "Hermetic Modular",
+       "manufacturer_slug": "hermetic-modular"
       }
      ],
      "summary": "Stereo accompaniment firmware for the Alchemy Lab V2 that runs a clock-synced tape delay, a 12-bit granular delay and an eight-voice sine and supersaw stack through a bipolar dual-notch filter.",
@@ -116,7 +122,9 @@
      "devices": [
       {
        "id": "m-vave-blackbox",
-       "name": "M-VAVE Blackbox"
+       "name": "M-VAVE Blackbox",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Android remote panel for the blackbox-fm1 firmware: a 27-key keyboard, 14 buttons and seven encoders that send MIDI over BLE or USB to the pedal, which does the sound.",
@@ -143,7 +151,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Browser visualizer for any FM-1 that draws its audio, MIDI notes, clock and knob moves as falling panels of diagonal lines, for the studio, the stage or an OBS overlay.",
@@ -170,7 +180,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Sampling-first build of Felucca 1.8.2: a SAMPLE row on HOME opens a sample editor that trims and slices the three user slots, and one sample can span two or three slots, up to about 84 seconds.",
@@ -198,7 +210,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Generative dungeon-synth and 16-bit RPG battle soundtrack instrument: phrases played on the keys become attacks by a three-member party against a boss on nine fantasy stages, with spells and status effects that reshape…",
@@ -228,7 +242,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Physical-modelled concert grand piano with a virtual pianist that steps through 87 public-domain pieces as the keys are tapped, a one-finger chord keyboard and a four-slot song recorder; no samples.",
@@ -253,7 +269,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Drone instrument firmware for the FM-1 with three voices of six styles and free frequencies, links between the voices, shared noise, chop and ring disruptors, a mixer, delay, reverb and compressor.",
@@ -279,7 +297,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Android companion app for FM-1s running Windjammer: the phone runs the Skiff 2.5.1 sequencer, extra synth engines and project storage, and the FM-1 serves as its keys, knobs and display.",
@@ -305,7 +325,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "FM1 Open with a per-track scale lock and one-finger chords: hold SCL to pick a root, scale, chord type and key mapping, and the 27 keys then play in key.",
@@ -330,7 +352,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Native Mac app that plays FM-1 firmware builds as .rfm1 files on an on-screen faceplate, with a Finder-style library that downloads firmware from FM-1 Pocket Player's catalogue.",
@@ -357,7 +381,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Offline-capable phone and computer web app built on fm1-emu that plays any Firmware Hub firmware on a touch FM-1, takes a MIDI keyboard, and installs firmware on a real FM-1 over USB after a backup and the m-bootloader…",
@@ -382,7 +408,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Bare-metal Rust board support crate for the FM-1 on embedded-hal 1.0, with no allocator and three example firmwares: a blinking LED, a colour test card and a square-wave tone.",
@@ -407,7 +435,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "STM32F4DISCOVERY firmware that puts an FM-1 that shows no USB device into its chip's ROM boot mode with USB cables only, so a computer script can back up the flash and rewrite the firmware area with official V15.",
@@ -435,7 +465,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Android groovebox app built to play alongside the FM-1 over USB MIDI, with a step sequencer for samples, drum pads, bass and analog synth parts, a vocal channel, song parts and mix recording.",
@@ -461,7 +493,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Build pipeline and signed release feed that compile FM-1 Firmware Hub firmwares from their own source into native Android and iOS cartridges for the FMutate app.",
@@ -489,7 +523,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Live sound-module firmware for the FM-1 that follows JIANT LIVE DRUMS: six tracks on their own MIDI channels with keyboard zones, 32 MIDI CC macros, two 12-sound drum engines, extra synth engines and no song sequencer.",
@@ -514,7 +550,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Minibrute-style monophonic synth for the FM-1 with Ultrasaw, PWM and Metalizer oscillators, a resonant multimode filter with Brute Factor, two ADSRs, an LFO, an arpeggiator and a browser emulator.",
@@ -543,7 +581,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Stage metronome with sixteen songs on the white keys, each with its own tempo, meter, step pattern and sound, a web setlist editor, and a live page that follows the unit over USB or Bluetooth.",
@@ -570,7 +610,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Eighteen casual games for the FM-1 that each double as a generative sequencer, from chess, solitaire and pinball to golf, pool and a worm, using Mighty Arp's sound engine, with a browser emulator.",
@@ -602,7 +644,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Four-track rhythm synthesis engine with 49 synthesized drum models, 20 synth models, 23 effects, a step sequencer with parameter locks, a line generator and an autopilot that varies a playing pattern.",
@@ -630,7 +674,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Five-synth firmware on Dinghy: notes go round robin, at random, to all five or to one, with 24 factory patches, an arpeggiator, a step sequencer, lofi tape effects and eight master effects.",
@@ -656,7 +702,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "VST3 and CLAP plugin in Rust that runs the TastyWaves wavetable firmware's synth core in a DAW, with 22 automatable parameters and an interface drawn like the FM-1.",
@@ -682,7 +730,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Turns the FM-1 into a USB MIDI controller and into the front panel of the FM1.Pocket browser emulator: keys, knobs and buttons play the page, and the page's screen and lights show on the unit.",
@@ -707,11 +757,15 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       },
       {
        "id": "m-vave-smk-37",
-       "name": "M-VAVE SMK-37 Pro / Elite"
+       "name": "M-VAVE SMK-37 Pro / Elite",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Felucca-based firmware for the FM-1 and SMK-37 that adds a VOSTOK sound engine with 68 factory sounds, a Soviet space-programme theme, a pseudo-Cyrillic interface and a browser emulator.",
@@ -737,7 +791,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "summary": "Skiff-derived FM-1 firmware that turns the unit into a native controller and display for a phone or computer app, which runs the sequencer and synth engines over USB MIDI and an open protocol.",
@@ -764,7 +820,9 @@
      "devices": [
       {
        "id": "mutable-instruments-rings",
-       "name": "Mutable Instruments Rings"
+       "name": "Mutable Instruments Rings",
+       "manufacturer": "Mutable Instruments",
+       "manufacturer_slug": "mutable-instruments"
       }
      ],
      "summary": "Slim source tree for the Rings firmware at a pinned upstream commit, with frequency locking, octave snapping on the frequency knob and a stricter calibration gesture; a Schliere allpass-chain mode is planned.",
@@ -796,7 +854,9 @@
      "devices": [
       {
        "id": "nintendo-3ds",
-       "name": "Nintendo 3DS"
+       "name": "Nintendo 3DS",
+       "manufacturer": "Nintendo",
+       "manufacturer_slug": "nintendo"
       }
      ],
      "summary": "Homebrew pocket synth and groovebox for the 3DS built on the AMY library, with Juno-6 and DX7 patch banks, original engines, a 16-step sequencer, performance effects and a four-track tape recorder.",
@@ -824,7 +884,9 @@
      "devices": [
       {
        "id": "nintendo-game-boy",
-       "name": "Nintendo Game Boy"
+       "name": "Nintendo Game Boy",
+       "manufacturer": "Nintendo",
+       "manufacturer_slug": "nintendo"
       }
      ],
      "summary": "Builds a stand-alone Game Boy album ROM from the songs in an LSDj save, with a custom logo, song names, a level-meter and waveform visualizer and next and previous song buttons.",
@@ -854,7 +916,9 @@
      "devices": [
       {
        "id": "ableton-move",
-       "name": "Ableton Move"
+       "name": "Ableton Move",
+       "manufacturer": "Ableton",
+       "manufacturer_slug": "ableton"
       }
      ],
      "releases": [
@@ -883,7 +947,9 @@
      "devices": [
       {
        "id": "akai-mpc-live",
-       "name": "Akai Professional MPC Live / Live II / X / One / Key 61"
+       "name": "Akai Professional MPC Live / Live II / X / One / Key 61",
+       "manufacturer": "Akai Professional",
+       "manufacturer_slug": "akai-professional"
       }
      ],
      "releases": [
@@ -917,7 +983,9 @@
      "devices": [
       {
        "id": "buchla-200e",
-       "name": "Buchla 200e Series"
+       "name": "Buchla 200e Series",
+       "manufacturer": "Buchla",
+       "manufacturer_slug": "buchla"
       }
      ],
      "releases": [
@@ -955,7 +1023,9 @@
      "devices": [
       {
        "id": "chase-bliss-chompi",
-       "name": "Chase Bliss CHOMPI"
+       "name": "Chase Bliss CHOMPI",
+       "manufacturer": "Chase Bliss",
+       "manufacturer_slug": "chase-bliss"
       }
      ],
      "releases": [
@@ -993,7 +1063,9 @@
      "devices": [
       {
        "id": "designburg-vibe-fm-mk1",
-       "name": "Designburg VIBE FM Mk1"
+       "name": "Designburg VIBE FM Mk1",
+       "manufacturer": "Designburg",
+       "manufacturer_slug": "designburg"
       }
      ],
      "releases": [
@@ -1043,7 +1115,9 @@
      "devices": [
       {
        "id": "elektron-digitone-ii",
-       "name": "Elektron Digitone II"
+       "name": "Elektron Digitone II",
+       "manufacturer": "Elektron",
+       "manufacturer_slug": "elektron"
       }
      ],
      "releases": [
@@ -1082,7 +1156,9 @@
      "devices": [
       {
        "id": "korg-electribe-2",
-       "name": "Korg Electribe 2 / 2 Sampler"
+       "name": "Korg Electribe 2 / 2 Sampler",
+       "manufacturer": "Korg",
+       "manufacturer_slug": "korg"
       }
      ],
      "releases": [
@@ -1115,7 +1191,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1151,7 +1229,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1184,7 +1264,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1213,7 +1295,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1242,7 +1326,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1272,7 +1358,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1307,7 +1395,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1339,7 +1429,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1372,7 +1464,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1407,7 +1501,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1442,7 +1538,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1479,7 +1577,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1513,7 +1613,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1542,7 +1644,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1578,7 +1682,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1608,7 +1714,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1643,7 +1751,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1674,7 +1784,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1706,7 +1818,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1738,7 +1852,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1771,11 +1887,15 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       },
       {
        "id": "m-vave-smk-37",
-       "name": "M-VAVE SMK-37 Pro / Elite"
+       "name": "M-VAVE SMK-37 Pro / Elite",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1808,7 +1928,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1844,7 +1966,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1874,7 +1998,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1908,7 +2034,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1943,7 +2071,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -1977,11 +2107,15 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       },
       {
        "id": "m-vave-smk-37",
-       "name": "M-VAVE SMK-37 Pro / Elite"
+       "name": "M-VAVE SMK-37 Pro / Elite",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2016,7 +2150,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2049,7 +2185,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2091,7 +2229,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2123,7 +2263,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2155,7 +2297,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2186,7 +2330,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2219,7 +2365,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2258,7 +2406,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2292,7 +2442,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2331,7 +2483,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2363,7 +2517,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2397,7 +2553,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2428,7 +2586,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2466,7 +2626,9 @@
      "devices": [
       {
        "id": "m-vave-fm-1",
-       "name": "M-VAVE FM-1"
+       "name": "M-VAVE FM-1",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2498,7 +2660,9 @@
      "devices": [
       {
        "id": "m-vave-pocket-amp",
-       "name": "M-VAVE Pocket AMP"
+       "name": "M-VAVE Pocket AMP",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2528,7 +2692,9 @@
      "devices": [
       {
        "id": "m-vave-smk-37",
-       "name": "M-VAVE SMK-37 Pro / Elite"
+       "name": "M-VAVE SMK-37 Pro / Elite",
+       "manufacturer": "M-VAVE",
+       "manufacturer_slug": "m-vave"
       }
      ],
      "releases": [
@@ -2566,7 +2732,9 @@
      "devices": [
       {
        "id": "nintendo-3ds",
-       "name": "Nintendo 3DS"
+       "name": "Nintendo 3DS",
+       "manufacturer": "Nintendo",
+       "manufacturer_slug": "nintendo"
       }
      ],
      "releases": [
@@ -2628,7 +2796,9 @@
      "devices": [
       {
        "id": "novation-circuit-rhythm",
-       "name": "Novation Circuit Rhythm"
+       "name": "Novation Circuit Rhythm",
+       "manufacturer": "Novation",
+       "manufacturer_slug": "novation"
       }
      ],
      "releases": [
@@ -2658,7 +2828,9 @@
      "devices": [
       {
        "id": "polyend-tracker-plus",
-       "name": "Polyend Tracker+"
+       "name": "Polyend Tracker+",
+       "manufacturer": "Polyend",
+       "manufacturer_slug": "polyend"
       }
      ],
      "releases": [
@@ -2688,11 +2860,15 @@
      "devices": [
       {
        "id": "polyend-tracker-mini",
-       "name": "Polyend Tracker Mini"
+       "name": "Polyend Tracker Mini",
+       "manufacturer": "Polyend",
+       "manufacturer_slug": "polyend"
       },
       {
        "id": "polyend-tracker-plus",
-       "name": "Polyend Tracker+"
+       "name": "Polyend Tracker+",
+       "manufacturer": "Polyend",
+       "manufacturer_slug": "polyend"
       }
      ],
      "releases": [
@@ -2723,11 +2899,15 @@
      "devices": [
       {
        "id": "miyoo-miyoo-mini",
-       "name": "Miyoo Mini"
+       "name": "Miyoo Mini",
+       "manufacturer": "Miyoo",
+       "manufacturer_slug": "miyoo"
       },
       {
        "id": "portmaster-compatible-handhelds",
-       "name": "PortMaster PortMaster-compatible handhelds"
+       "name": "PortMaster PortMaster-compatible handhelds",
+       "manufacturer": "PortMaster",
+       "manufacturer_slug": "portmaster"
       }
      ],
      "releases": [
@@ -2759,7 +2939,9 @@
      "devices": [
       {
        "id": "teenage-engineering-op-xy",
-       "name": "Teenage Engineering OP-XY"
+       "name": "Teenage Engineering OP-XY",
+       "manufacturer": "Teenage Engineering",
+       "manufacturer_slug": "teenage-engineering"
       }
      ],
      "releases": [
@@ -2790,7 +2972,9 @@
      "devices": [
       {
        "id": "teenage-engineering-sp-1",
-       "name": "Teenage Engineering SP-1"
+       "name": "Teenage Engineering SP-1",
+       "manufacturer": "Teenage Engineering",
+       "manufacturer_slug": "teenage-engineering"
       }
      ],
      "releases": [
