@@ -106,7 +106,8 @@ readable without a GitHub account. A private copy's feed needs a token.
 
 Each day has the same changes as that day's issue: `devices`, `entries` (new
 firmware and tools) and `versions` (new releases of listed entries), with
-names, links, the devices they run on, and the same shortened summaries and
+names, links, the devices they run on and each device's brand
+(`manufacturer`, `manufacturer_slug`), and the same shortened summaries and
 release notes. It also counts the untagged updates and filtered changes left
 out. A later run for the same day adds to that day's file. Anything built on
 the feed must credit altstrument.org under CC-BY-4.0, as its `source` field

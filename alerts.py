@@ -333,6 +333,16 @@ def render(new_devices, new_entries, new_versions, hidden, untagged, devices, fi
 
 # JSON feed: the same changes as the digest, for websites and other tools.
 
+def device_ref(dev_id, devices):
+    dev = devices.get(dev_id)
+    return {
+        "id": dev_id,
+        "name": full_name(dev) if dev else dev_id,
+        "manufacturer": (dev["manufacturer"] or None) if dev else None,
+        "manufacturer_slug": (dev["manufacturer_slug"] or None) if dev else None,
+    }
+
+
 def entry_fields(fw_id, fw, devices):
     return {
         "id": fw_id,
@@ -343,7 +353,7 @@ def entry_fields(fw_id, fw, devices):
         "quality": fw["quality"],
         "brick_risk": fw["brick_risk"],
         "tags": fw["tags"],
-        "devices": [{"id": d, "name": full_name(devices[d]) if d in devices else d} for d in fw["devices"]],
+        "devices": [device_ref(d, devices) for d in fw["devices"]],
     }
 
 
@@ -359,9 +369,7 @@ def release_fields(v):
 def day_record(day, new_devices, new_entries, new_versions, hidden, untagged, devices, firmwares):
     return {
         "date": day.isoformat(),
-        "devices": [{
-            "id": d,
-            "name": full_name(devices[d]),
+        "devices": [device_ref(d, devices) | {
             "url": devices[d]["url"],
             "category": devices[d]["category"] or None,
             "tagline": short(devices[d]["tagline"]) if devices[d]["tagline"] else None,
