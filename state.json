@@ -1,5 +1,5 @@
 {
-"catalog_etag": "W/\"ce11c37384bf215131cff9ff9ba43fa2\"",
+"catalog_etag": "W/\"49eae686518924f55da9ba2fa457e957\"",
 "devices": [
 "1010music-bitbox-micro",
 "1010music-bitbox-mk2",
@@ -239,6 +239,7 @@
 "megacommand",
 "meloaudio-midi-commander",
 "melted-electronics-glitch-boy",
+"meng-qi-wingie2",
 "meris-enzo",
 "meris-hedra",
 "meris-mercury7",
@@ -265,6 +266,7 @@
 "montreal-assembly-count-to-5",
 "moog-matriarch",
 "moog-memorymoog",
+"moog-mother-32",
 "moog-subharmonicon",
 "mowry-stringed-instruments-warbl",
 "multi-brand-tools",
@@ -1022,7 +1024,8 @@
 "v0.32.0",
 "v0.33.0",
 "v0.33.1",
-"v0.33.2"
+"v0.33.2",
+"v0.34.0"
 ],
 "ableton-move/sample-slicer": [
 "v0.1.0",
@@ -1802,6 +1805,9 @@
 "akai-mpc-live/feluccasynth": [
 "main @ 47780a7"
 ],
+"akai-mpc-live/fm1-sampler-mpc": [
+"main @ 3418444"
+],
 "akai-mpc-live/granola-openmpc": [
 "master @ 9709dfa"
 ],
@@ -1851,6 +1857,7 @@
 ],
 "akai-mpc-live/mpc-chord-progression-tools": [
 "main @ 0593d6d",
+"main @ 5f091e7",
 "main @ c84a306"
 ],
 "akai-mpc-live/mpc-force-ssh-firmwares": [
@@ -1954,6 +1961,10 @@
 "plugin-manager-g2-v2.0.0",
 "plugin-manager-g2-v2.1.0"
 ],
+"akai-mpc-live/xmp-os": [
+"v1.0.0",
+"v1.0.1"
+],
 "akai-mpc-sample/melodee-chip": [
 "v1.0.0"
 ],
@@ -1984,7 +1995,10 @@
 "v0.6.7",
 "v0.6.8",
 "v0.7.0",
-"v0.7.1"
+"v0.7.1",
+"v0.8.0",
+"v0.8.1",
+"v0.8.2"
 ],
 "akai-mpc-sample/mpc-minimod": [
 "0.10.0",
@@ -2030,7 +2044,8 @@
 "v0.1.4.9"
 ],
 "akai-mpc-sample/virtual-mpc-sample": [
-"main @ 15f732c"
+"main @ 15f732c",
+"main @ b523246"
 ],
 "akai-mpc1000/jjos": [
 "Free JJOS 3.16",
@@ -2336,6 +2351,7 @@
 "axs-instruments-weasel/weasel-firmware": [
 "main @ 134f9a5",
 "main @ 177d437",
+"main @ 70d2a69",
 "main @ ac17063",
 "main @ c65f247",
 "main @ d929ae6"
@@ -2606,12 +2622,14 @@
 "firmware-121",
 "firmware-122",
 "firmware-125",
+"firmware-132",
 "firmware-95",
 "firmware-96",
 "firmware-99"
 ],
 "benjamin-poilve-minichord/key-and-cable-minicontrol": [
-"main @ 4f86e9d"
+"main @ 4f86e9d",
+"main @ cba6f78"
 ],
 "benjamin-poilve-minichord/minichord-firmware": [
 "main @ e5eae03"
@@ -2626,6 +2644,7 @@
 "main @ 6c135b9"
 ],
 "benjamin-poilve-minichord/minictl": [
+"main @ 8f366fb",
 "main @ de0ee6d"
 ],
 "blokas-midiboy/bytebeats": [
@@ -2818,6 +2837,9 @@
 ],
 "cleveland-hothouse/andyhunti-hothouse": [
 "main @ b468b25"
+],
+"cleveland-hothouse/bandwerk": [
+"v0.1.0-beta"
 ],
 "cleveland-hothouse/computer-room": [
 "v1.1.0"
@@ -3612,7 +3634,8 @@
 "main @ b6ea056",
 "main @ c1ececd",
 "main @ d14ccb2",
-"main @ e265ae4"
+"main @ e265ae4",
+"main @ e5b3923"
 ],
 "elektron-digitone-ii/dnx": [
 "0.9.0-beta.8",
@@ -3625,6 +3648,8 @@
 "v1.1",
 "v1.10",
 "v1.11",
+"v1.12",
+"v1.13",
 "v1.2",
 "v1.3",
 "v1.4",
@@ -3801,9 +3826,11 @@
 "main @ a6c0af2",
 "main @ ab7429e",
 "main @ c02f99e",
+"main @ c3a39b6",
 "main @ e65b2bc"
 ],
 "elektron-model-cycles/supermodel-edition": [
+"main @ 08727f9",
 "main @ 139d394",
 "main @ 94d6901",
 "main @ 959f8e4"
@@ -3866,7 +3893,8 @@
 "v0.1",
 "v0.2",
 "v0.3",
-"v0.4"
+"v0.4",
+"v0.5"
 ],
 "elektron-octatrack/octachainer2": [
 "v2.0.0"
@@ -3907,6 +3935,7 @@
 "main @ 48e870a",
 "main @ 5b2d637",
 "main @ 6bcf23b",
+"main @ 782b676",
 "main @ 84ec2db",
 "main @ a1716a8",
 "main @ a81bb0b",
@@ -3999,6 +4028,7 @@
 "main @ b657f37",
 "main @ c8f8a02",
 "main @ d5ffbba",
+"main @ d8e31bd",
 "main @ e14cbc4"
 ],
 "elektron-tools/digiscreen": [
@@ -4067,6 +4097,7 @@
 "emu-v0.2.1"
 ],
 "erica-synths-lxr-02/lxr-02-firmware": [
+"main @ 39928e1",
 "main @ 90ef0d9",
 "main @ dca0a44"
 ],
@@ -4162,6 +4193,7 @@
 "v1.19.0"
 ],
 "expert-sleepers-disting-nt/distingnt-tools": [
+"main @ 0cebfdf",
 "main @ 2b71ea0",
 "main @ 82c2367",
 "main @ 905deb6"
@@ -4191,7 +4223,8 @@
 "v2.63.3",
 "v2.64.0",
 "v2.64.1",
-"v2.65.0"
+"v2.65.0",
+"v2.66.0"
 ],
 "expert-sleepers-disting-nt/widesmearnt": [
 "v2026.10.17",
@@ -4826,7 +4859,8 @@
 ],
 "korg-volca-fm-2/stromboli": [
 "v1.2.4",
-"v1.2.9"
+"v1.2.9",
+"v1.3.0"
 ],
 "korg-volca-fm-2/volcafm2-tools": [
 "v2.1.0",
@@ -4943,6 +4977,8 @@
 "main @ ef3e33d"
 ],
 "line-6-helix-stadium/helixgen": [
+"v0.100.0",
+"v0.101.0",
 "v0.50.0",
 "v0.58.0",
 "v0.58.1",
@@ -4964,7 +5000,17 @@
 "v0.85.0",
 "v0.86.0",
 "v0.88.0",
-"v0.89.0"
+"v0.89.0",
+"v0.90.0",
+"v0.91.0",
+"v0.92.0",
+"v0.93.0",
+"v0.94.0",
+"v0.95.0",
+"v0.96.0",
+"v0.97.0",
+"v0.98.0",
+"v0.99.0"
 ],
 "line-6-helix-stadium/matrix-mixer-desktop": [
 "v1.5.0",
@@ -5322,7 +5368,8 @@
 "v0.9.1",
 "v0.9.2",
 "v0.9.3",
-"v0.9.4"
+"v0.9.4",
+"v0.9.5"
 ],
 "m-vave-chocolate/ampero-stomp-ii-mcp": [
 "main @ 34ab013"
@@ -5391,7 +5438,8 @@
 "main @ 1ec0428"
 ],
 "m-vave-fm-1/3310": [
-"main @ 02df489"
+"main @ 02df489",
+"main @ 3123c64"
 ],
 "m-vave-fm-1/386dx-engine": [
 "main @ 595eb7d"
@@ -5403,6 +5451,7 @@
 "v2.0"
 ],
 "m-vave-fm-1/6210-drum-peter": [
+"main @ 6b5a38c",
 "main @ 8683f9d"
 ],
 "m-vave-fm-1/7f": [
@@ -5412,6 +5461,7 @@
 "0.1.0",
 "0.4.0",
 "0.5.0",
+"0.6.0",
 "main @ 74eaa26"
 ],
 "m-vave-fm-1/abyss": [
@@ -5483,7 +5533,8 @@
 ],
 "m-vave-fm-1/alter": [
 "1.0",
-"1.01"
+"1.01",
+"1.1"
 ],
 "m-vave-fm-1/amaru-os": [
 "main @ c797cc1"
@@ -5656,7 +5707,8 @@
 "2.0.2",
 "2.0.3",
 "2.0.4",
-"2.0.5"
+"2.0.5",
+"2.0.6"
 ],
 "m-vave-fm-1/ass-id": [
 "1.0"
@@ -5687,7 +5739,8 @@
 "0.4.0",
 "0.5.0",
 "0.6.0",
-"0.6.1"
+"0.6.1",
+"0.6.2"
 ],
 "m-vave-fm-1/b1-drawbar-organ": [
 "V2.5beta",
@@ -5792,6 +5845,10 @@
 "m-vave-fm-1/beachcomber": [
 "main @ c632800"
 ],
+"m-vave-fm-1/beat-and-dungeon": [
+"v1.0",
+"v1.1"
+],
 "m-vave-fm-1/beat-it": [
 "1.2",
 "1.3",
@@ -5869,7 +5926,8 @@
 "main @ 1e29859",
 "main @ 70e4675",
 "main @ 8e71d2d",
-"main @ 9e681b0"
+"main @ 9e681b0",
+"main @ a36c237"
 ],
 "m-vave-fm-1/bioforge": [
 "main @ a936a33",
@@ -5923,10 +5981,12 @@
 "v1.0.0-rc9"
 ],
 "m-vave-fm-1/bonbloop": [
+"1.3.1",
 "1.7",
 "1.8",
 "1.9",
-"bonbloop/synth-mode @ f29de9e"
+"1.9.1",
+"1.9.2"
 ],
 "m-vave-fm-1/bongo-cat-studio": [
 "0.4.0-rc1"
@@ -5960,6 +6020,9 @@
 "0.1.0",
 "1.0.0"
 ],
+"m-vave-fm-1/bossa-lounge": [
+"1.0"
+],
 "m-vave-fm-1/botanica": [
 "botanica-v0.1",
 "botanica-v0.2",
@@ -5985,7 +6048,8 @@
 ],
 "m-vave-fm-1/brussels": [
 "0.9",
-"0.9.1"
+"0.9.1",
+"0.9.2"
 ],
 "m-vave-fm-1/brutal-fm": [
 "v0.1.4",
@@ -6054,7 +6118,8 @@
 "0.9.0",
 "1.0.0",
 "1.1.0",
-"1.1.1"
+"1.1.1",
+"1.2.0"
 ],
 "m-vave-fm-1/cardbuddy": [
 "0.1.1",
@@ -6102,7 +6167,12 @@
 "0.7.0",
 "0.8.0",
 "0.9.0",
-"1.0.0"
+"1.0.0",
+"1.1.0",
+"1.1.1"
+],
+"m-vave-fm-1/chip-tracker": [
+"1.0"
 ],
 "m-vave-fm-1/chipbox": [
 "v1.0.0",
@@ -6231,6 +6301,9 @@
 ],
 "m-vave-fm-1/cinco": [
 "2.5"
+],
+"m-vave-fm-1/city-pop": [
+"1.0"
 ],
 "m-vave-fm-1/clatter-pocket": [
 "0.7.0",
@@ -6401,7 +6474,9 @@
 "0.17-beta",
 "0.18-beta",
 "0.19-beta",
-"0.20-beta"
+"0.20-beta",
+"0.21-beta",
+"0.22-beta"
 ],
 "m-vave-fm-1/daoge-synth": [
 "0.2",
@@ -6433,6 +6508,12 @@
 ],
 "m-vave-fm-1/deal-or-no-deal": [
 "main @ a8ffcf7"
+],
+"m-vave-fm-1/decay-loops": [
+"1.0"
+],
+"m-vave-fm-1/deep-house": [
+"1.0"
 ],
 "m-vave-fm-1/deepfield": [
 "1.10",
@@ -6472,7 +6553,8 @@
 "0.2",
 "0.3",
 "0.4",
-"0.5"
+"0.5",
+"0.6"
 ],
 "m-vave-fm-1/dirge": [
 "main @ 59cf4b1"
@@ -6487,6 +6569,7 @@
 "v0.5.1"
 ],
 "m-vave-fm-1/doinua": [
+"main @ 334c5d8",
 "main @ 6289e62",
 "main @ dbdc033"
 ],
@@ -6508,7 +6591,8 @@
 "1.0.7",
 "1.0.8",
 "1.0.9",
-"1.1.0"
+"1.1.0",
+"1.1.1"
 ],
 "m-vave-fm-1/dreadnought": [
 "0.1",
@@ -6561,7 +6645,8 @@
 "0.2.4",
 "0.9",
 "0.9.5",
-"0.9.6"
+"0.9.6",
+"0.9.7"
 ],
 "m-vave-fm-1/dub-1": [
 "1.0.0",
@@ -6587,6 +6672,12 @@
 "1.0.7",
 "1.0.8",
 "1.0.9"
+],
+"m-vave-fm-1/dub-desk": [
+"1.0"
+],
+"m-vave-fm-1/dub-fm1": [
+"r39"
 ],
 "m-vave-fm-1/dubengine": [
 "main @ d4e0e8a"
@@ -6699,7 +6790,8 @@
 "1.5",
 "1.5.1",
 "1.5.2",
-"1.5.3"
+"1.5.3",
+"1.5.4"
 ],
 "m-vave-fm-1/emerald-ym": [
 "0.1.4",
@@ -6784,6 +6876,9 @@
 ],
 "m-vave-fm-1/fble": [
 "main @ a055288"
+],
+"m-vave-fm-1/felt-piano": [
+"1.0"
 ],
 "m-vave-fm-1/felucca": [
 "1.4",
@@ -6976,6 +7071,10 @@
 "0.23",
 "0.24",
 "0.25",
+"0.26",
+"0.27",
+"0.28",
+"0.29",
 "0.3",
 "0.4",
 "0.5",
@@ -7057,9 +7156,20 @@
 "0.12.5"
 ],
 "m-vave-fm-1/fm1-8p": [
+"main @ 00115f8",
 "main @ 4661d71",
 "main @ 80b8d9b",
 "main @ d60eac8"
+],
+"m-vave-fm-1/fm1-again": [
+"1.0",
+"1.0.1",
+"1.0.2",
+"1.0.3",
+"1.0.4"
+],
+"m-vave-fm-1/fm1-agent-console": [
+"main @ 1eacfd6"
 ],
 "m-vave-fm-1/fm1-amy": [
 "0.1.0"
@@ -7096,6 +7206,7 @@
 "v1.0"
 ],
 "m-vave-fm-1/fm1-battle": [
+"battle @ 1909626",
 "battle @ 49e29c7",
 "battle @ e3d1afe"
 ],
@@ -7118,6 +7229,12 @@
 "1.3.20",
 "1.3.21",
 "1.3.22",
+"1.3.23",
+"1.3.24",
+"1.3.25",
+"1.3.26",
+"1.3.27",
+"1.3.28",
 "1.3.3",
 "1.3.4",
 "1.3.5",
@@ -7125,6 +7242,9 @@
 "1.3.7",
 "1.3.8",
 "1.3.9"
+],
+"m-vave-fm-1/fm1-big-screen-builds": [
+"main @ 2e1665e"
 ],
 "m-vave-fm-1/fm1-big-screen-ios": [
 "main @ 5a57fe6"
@@ -7146,6 +7266,10 @@
 "1.6.11",
 "1.6.12",
 "1.6.13",
+"1.6.14",
+"1.6.15",
+"1.6.16",
+"1.6.17",
 "1.6.2",
 "1.6.3",
 "1.6.4",
@@ -7221,6 +7345,9 @@
 "v3.1.2",
 "v3.1.3"
 ],
+"m-vave-fm-1/fm1-composer": [
+"main @ 480d3f7"
+],
 "m-vave-fm-1/fm1-core-platform": [
 "main @ d024ad3"
 ],
@@ -7234,7 +7361,8 @@
 "main"
 ],
 "m-vave-fm-1/fm1-d50": [
-"v0.9"
+"v0.9",
+"v0.95"
 ],
 "m-vave-fm-1/fm1-deck": [
 "0.1.0",
@@ -7272,7 +7400,8 @@
 "1.0.0"
 ],
 "m-vave-fm-1/fm1-drydock": [
-"main @ b4b25ff"
+"main @ b4b25ff",
+"main @ f121efc"
 ],
 "m-vave-fm-1/fm1-echo-show": [
 "main @ 753cba1"
@@ -7357,7 +7486,9 @@
 "builds-20261120-49",
 "builds-20261121-50",
 "builds-20261122-51",
-"builds-20261123-52"
+"builds-20261123-52",
+"builds-20261124-53",
+"builds-20261125-54"
 ],
 "m-vave-fm-1/fm1-firmware-downloader": [
 "main @ 67bbb9e"
@@ -7370,7 +7501,8 @@
 "main @ ac7e957"
 ],
 "m-vave-fm-1/fm1-flasher-ashtonwallen": [
-"main @ 96a30b9"
+"main @ 96a30b9",
+"main @ be47176"
 ],
 "m-vave-fm-1/fm1-flasher-ios": [
 "main @ d0e3a48"
@@ -7407,13 +7539,19 @@
 "v0.1.3",
 "v0.1.4",
 "v0.1.5",
-"v0.1.6"
+"v0.1.6",
+"v1.0.0",
+"v1.0.1"
 ],
 "m-vave-fm-1/fm1-hardware-inspector": [
 "main @ 60ce0e9"
 ],
 "m-vave-fm-1/fm1-harmonica": [
 "main @ 7c6d3c4"
+],
+"m-vave-fm-1/fm1-hero": [
+"v0.1",
+"v0.2"
 ],
 "m-vave-fm-1/fm1-hub-iphone": [
 "main @ 16e6b31",
@@ -7426,6 +7564,7 @@
 "main @ 9c8f058"
 ],
 "m-vave-fm-1/fm1-inspect": [
+"main @ 28f428a",
 "main @ 44208af",
 "main @ 6d747c4",
 "main @ 9719732"
@@ -7475,6 +7614,7 @@
 "m-vave-fm-1/fm1-librarian": [],
 "m-vave-fm-1/fm1-library": [
 "main @ 5aa4edf",
+"main @ 717afb0",
 "main @ 82f8db4",
 "main @ 9db2163"
 ],
@@ -7509,7 +7649,8 @@
 "m-vave-fm-1/fm1-maestro": [
 "main @ 03d5953",
 "main @ 16cb4ec",
-"main @ 761377a"
+"main @ 761377a",
+"main @ cb859da"
 ],
 "m-vave-fm-1/fm1-manager": [
 "main @ 64cad09"
@@ -7533,6 +7674,12 @@
 "m-vave-fm-1/fm1-mirror-ios": [
 "main @ 33b3a29"
 ],
+"m-vave-fm-1/fm1-mix": [
+"v0.21",
+"v0.25",
+"v0.28",
+"v0.28.2"
+],
 "m-vave-fm-1/fm1-mobile": [
 "main @ 98d8a72"
 ],
@@ -7549,6 +7696,7 @@
 "m-vave-fm-1/fm1-nes": [],
 "m-vave-fm-1/fm1-ninjathune": [
 "main @ 0887b8b",
+"main @ 940e859",
 "main @ b2774bd",
 "main @ b5c4b1f"
 ],
@@ -7567,6 +7715,7 @@
 "main @ 661a719"
 ],
 "m-vave-fm-1/fm1-orchestra": [
+"main @ 5d4dc61",
 "main @ a64efcf",
 "main @ e72c084"
 ],
@@ -7586,9 +7735,11 @@
 "b1.6.2"
 ],
 "m-vave-fm-1/fm1-pocket-mac": [
-"0.9.0"
+"0.9.0",
+"0.9.1"
 ],
 "m-vave-fm-1/fm1-pocket-player": [
+"main @ 63d9d63",
 "main @ 6bf66aa",
 "main @ f5d8c12"
 ],
@@ -7627,7 +7778,8 @@
 ],
 "m-vave-fm-1/fm1-rdx": [
 "1.0.0-beta",
-"1.0.1"
+"1.0.1",
+"1.0.2"
 ],
 "m-vave-fm-1/fm1-re": [
 "main"
@@ -7662,6 +7814,7 @@
 "fm1/v0.1.3",
 "main @ 44036b3",
 "main @ 5227c96",
+"main @ 655a3e4",
 "main @ ad37e0a",
 "main @ df583bc"
 ],
@@ -7695,6 +7848,7 @@
 "v0.4"
 ],
 "m-vave-fm-1/fm1-studio-web": [
+"main @ 4c60952",
 "main @ 5f2fed3",
 "main @ af7524c",
 "main @ f4f6d66"
@@ -7736,6 +7890,9 @@
 ],
 "m-vave-fm-1/fm1-tracker": [
 "main @ d3038ca"
+],
+"m-vave-fm-1/fm1-trainer": [
+"claude/wonderful-newton-l15wx9 @ 7ea9df7"
 ],
 "m-vave-fm-1/fm1-transporter": [
 "v0.1.0"
@@ -7847,7 +8004,7 @@
 "v3.21-lab",
 "v3.40-lab",
 "v3.42",
-"v3.53-lab"
+"v3.58-lab"
 ],
 "m-vave-fm-1/fm1droid": [
 "0.2.0",
@@ -7881,7 +8038,8 @@
 "0.5.1",
 "0.6.0",
 "0.6.1",
-"0.6.2"
+"0.6.2",
+"0.7.0"
 ],
 "m-vave-fm-1/fm2k": [
 "main @ 10787e1"
@@ -7956,6 +8114,7 @@
 "0.2.1",
 "0.3.0",
 "0.3.1",
+"0.3.2",
 "master @ 98e6d4c"
 ],
 "m-vave-fm-1/fmutate-cartridges": [
@@ -7964,7 +8123,13 @@
 "build-20261121-15",
 "build-20261122-16",
 "build-20261123-17",
-"build-20261124-19"
+"build-20261124-19",
+"build-20261124-20"
+],
+"m-vave-fm-1/fmy262": [
+"0.8.1",
+"0.8.2",
+"0.8.3"
 ],
 "m-vave-fm-1/fn-acid": [
 "main @ 3443693"
@@ -8031,10 +8196,12 @@
 "3.2",
 "3.3",
 "3.3.1",
-"3.4"
+"3.4",
+"3.4.1"
 ],
 "m-vave-fm-1/freitakt": [
-"main @ 5f721bd"
+"v1.0",
+"v1.0.1"
 ],
 "m-vave-fm-1/french-touch-mini": [
 "2.0.0"
@@ -8084,8 +8251,12 @@
 "smk-flash-compat-984",
 "smk-pad-lights-985"
 ],
-"m-vave-fm-1/garden": [
+"m-vave-fm-1/gamelan": [
 "1.0"
+],
+"m-vave-fm-1/garden": [
+"1.0",
+"1.1"
 ],
 "m-vave-fm-1/gator": [
 "0.1",
@@ -8112,13 +8283,14 @@
 "main @ 28acafa"
 ],
 "m-vave-fm-1/genamb": [
-"main @ 67fb340"
+"v1.0"
 ],
 "m-vave-fm-1/ghettomachine": [
 "main @ 3fa1d9d",
 "main @ 435f9c8",
 "main @ 5bb2f6d",
-"main @ 9445871"
+"main @ 9445871",
+"main @ eef6bcd"
 ],
 "m-vave-fm-1/ghoulbox": [
 "2.0",
@@ -8161,7 +8333,8 @@
 "main @ 303d25c"
 ],
 "m-vave-fm-1/glory-pad": [
-"main @ 3790692"
+"main @ 3790692",
+"main @ 42f7044"
 ],
 "m-vave-fm-1/gnomad": [
 "v1.0.0-r12"
@@ -8184,7 +8357,8 @@
 ],
 "m-vave-fm-1/grain-piano": [
 "1.0",
-"1.3"
+"1.3",
+"1.4"
 ],
 "m-vave-fm-1/graine": [
 "0.2",
@@ -8241,7 +8415,8 @@
 "1.1.0",
 "1.2.0",
 "1.3.0",
-"1.3.1"
+"1.3.1",
+"1.4.0"
 ],
 "m-vave-fm-1/gwaan-1": [
 "0.2",
@@ -8253,7 +8428,9 @@
 "0.2.0",
 "0.2.1",
 "0.2.2",
-"0.3.0"
+"0.3.0",
+"0.3.1",
+"0.3.2"
 ],
 "m-vave-fm-1/hadal-1": [
 "1.0",
@@ -8288,6 +8465,7 @@
 "2.1.7"
 ],
 "m-vave-fm-1/helio": [
+"main @ 6a24b3d",
 "main @ fd5bf46"
 ],
 "m-vave-fm-1/hera": [
@@ -8339,7 +8517,8 @@
 ],
 "m-vave-fm-1/insert-coin": [
 "0.1",
-"0.8"
+"0.8",
+"0.9"
 ],
 "m-vave-fm-1/j6": [
 "1.0.0",
@@ -8382,6 +8561,9 @@
 "0.9.9",
 "1.0",
 "1.0.1"
+],
+"m-vave-fm-1/jazz-trio": [
+"1.0"
 ],
 "m-vave-fm-1/jazzy": [
 "0.1.0-beta.1",
@@ -8431,7 +8613,12 @@
 "1.1.02",
 "1.1.03",
 "1.2.0b",
-"1.2.1b"
+"1.2.1b",
+"1.2.2b",
+"1.2.3b",
+"1.2.4b",
+"1.2.5b",
+"1.2.6b"
 ],
 "m-vave-fm-1/kalk": [
 "0.3",
@@ -8591,12 +8778,16 @@
 "0.9.69",
 "0.9.70",
 "0.9.73",
-"0.9.74"
+"0.9.74",
+"0.9.77"
 ],
 "m-vave-fm-1/lof-1": [
 "0.0.61",
 "0.0.87",
 "0.0.95"
+],
+"m-vave-fm-1/lofi-radio": [
+"1.0"
 ],
 "m-vave-fm-1/loom": [
 "0.1.0"
@@ -8664,6 +8855,9 @@
 "m-vave-fm-1/luxr": [
 "main @ 89908da"
 ],
+"m-vave-fm-1/m-3rd-vave": [
+"0.1"
+],
 "m-vave-fm-1/m-apps": [
 "0.1"
 ],
@@ -8678,6 +8872,7 @@
 "3.0"
 ],
 "m-vave-fm-1/m-card": [
+"main @ bde17a8",
 "main @ ec63784"
 ],
 "m-vave-fm-1/m-flasher": [
@@ -8709,6 +8904,7 @@
 "1.0.3"
 ],
 "m-vave-fm-1/m-unbricker": [
+"main @ 8d524ce",
 "main @ bd5ea96"
 ],
 "m-vave-fm-1/m-vsynth2": [
@@ -8792,6 +8988,10 @@
 "1.26.0",
 "1.26.1",
 "1.26.2",
+"1.26.3",
+"1.26.4",
+"1.26.5",
+"1.26.6",
 "1.3.0",
 "1.3.1",
 "1.4.0",
@@ -8810,6 +9010,7 @@
 ],
 "m-vave-fm-1/mb-1": [
 "0.15.0",
+"0.25.1",
 "main @ 01a7e31",
 "main @ 240a7e7",
 "main @ f636d78"
@@ -8828,7 +9029,8 @@
 "1.1.0"
 ],
 "m-vave-fm-1/md-one": [
-"main @ 6db1985"
+"main @ 6db1985",
+"main @ f5dff07"
 ],
 "m-vave-fm-1/melisma": [
 "1.0"
@@ -8957,8 +9159,12 @@
 "minivision-1.0.0",
 "minivision-1.0.1"
 ],
+"m-vave-fm-1/minimal-machine": [
+"1.0"
+],
 "m-vave-fm-1/minitraxfm": [
 "main @ 9dc1085",
+"main @ e1f7842",
 "main @ f1f7353"
 ],
 "m-vave-fm-1/mirage-fm1": [
@@ -8984,6 +9190,7 @@
 "main @ 7073d2d",
 "main @ 72396fc",
 "main @ 8fff88d",
+"main @ cf7c7e9",
 "main @ d0015c2",
 "main @ d9bf931",
 "main @ fb66682"
@@ -9005,13 +9212,16 @@
 ],
 "m-vave-fm-1/modular-one": [
 "0.1-beta",
-"0.3-beta"
+"0.3-beta",
+"0.4-beta"
 ],
 "m-vave-fm-1/monades": [
 "main @ 15e32ed"
 ],
 "m-vave-fm-1/monastery": [
-"1.0"
+"1.0",
+"1.1",
+"1.2"
 ],
 "m-vave-fm-1/monk-1": [
 "0.10",
@@ -9041,6 +9251,9 @@
 "1.9.1",
 "1.9.2",
 "1.9.3"
+],
+"m-vave-fm-1/monodrone": [
+"v1.0"
 ],
 "m-vave-fm-1/monohull": [
 "0.1.0",
@@ -9214,8 +9427,12 @@
 "0.3",
 "0.3.1"
 ],
-"m-vave-fm-1/night-train": [
+"m-vave-fm-1/night-drive": [
 "1.0"
+],
+"m-vave-fm-1/night-train": [
+"1.0",
+"1.1"
 ],
 "m-vave-fm-1/nightfall": [
 "0.1.0-green2-experimental"
@@ -9278,6 +9495,9 @@
 "m-vave-fm-1/obervave-multi": [
 "main @ 3ebcb86"
 ],
+"m-vave-fm-1/obscura-line": [
+"1.0"
+],
 "m-vave-fm-1/obssynth-fm1": [
 "0.1.0",
 "0.1.1",
@@ -9300,7 +9520,8 @@
 ],
 "m-vave-fm-1/offworld": [
 "0.4.1",
-"0.4.2"
+"0.4.2",
+"0.4.3"
 ],
 "m-vave-fm-1/og-synth": [
 "0.91.0",
@@ -9324,7 +9545,8 @@
 "1.8.1",
 "1.8.2",
 "2.0.0",
-"2.0.1"
+"2.0.1",
+"2.0.2"
 ],
 "m-vave-fm-1/ombak": [
 "0.1.5",
@@ -9387,6 +9609,7 @@
 "m-vave-fm-1/optimist": [
 "0.1",
 "0.2",
+"0.2.1",
 "0.3",
 "0.4"
 ],
@@ -9432,7 +9655,8 @@
 "m-vave-fm-1/organvave": [
 "main @ 472771e",
 "main @ 8d8606a",
-"main @ 97bed52"
+"main @ 97bed52",
+"main @ e5287c6"
 ],
 "m-vave-fm-1/orgigs": [
 "1.0",
@@ -9442,6 +9666,9 @@
 ],
 "m-vave-fm-1/orrery": [
 "0.1.0"
+],
+"m-vave-fm-1/oual-fm1": [
+"main @ 427df4b"
 ],
 "m-vave-fm-1/outrigger": [
 "0.1.0-beta.1",
@@ -9471,6 +9698,9 @@
 "1.0",
 "1.0.1",
 "1.1"
+],
+"m-vave-fm-1/patch-bay": [
+"1.0"
 ],
 "m-vave-fm-1/patchwerk": [
 "1.0.0",
@@ -9507,7 +9737,8 @@
 "0.16.1",
 "0.16.2",
 "0.17.0",
-"1.0.0"
+"1.0.0",
+"1.0.1"
 ],
 "m-vave-fm-1/phreak-fm1": [
 "1.9"
@@ -9609,7 +9840,8 @@
 "v1.2"
 ],
 "m-vave-fm-1/pond-ashtonwallen": [
-"1.0"
+"1.0",
+"1.1"
 ],
 "m-vave-fm-1/pro-fm-78": [
 "0.1"
@@ -9621,7 +9853,9 @@
 "m-vave-fm-1/prophet-67": [
 "v1.0",
 "v1.1",
-"v1.2"
+"v1.2",
+"v1.3",
+"v1.4"
 ],
 "m-vave-fm-1/prysm": [
 "0.2",
@@ -9698,6 +9932,12 @@
 "2.1.0",
 "2.1.1",
 "2.1.2",
+"2.2.0",
+"2.3.0",
+"2.3.14",
+"2.3.15",
+"2.3.16",
+"2.3.8",
 "2.4.0",
 "2.5.0",
 "2.6.0",
@@ -9761,6 +10001,10 @@
 ],
 "m-vave-fm-1/rambeaver": [
 "FM-1_745"
+],
+"m-vave-fm-1/rand": [
+"1.0.0",
+"1.0.1"
 ],
 "m-vave-fm-1/rave-fm-2": [
 "v2.0"
@@ -9949,7 +10193,8 @@
 "r0.1.1",
 "r0.1.2",
 "r0.1.3",
-"r0.1.5"
+"r0.1.5",
+"r0.1.6"
 ],
 "m-vave-fm-1/ruido": [
 "0.7.0",
@@ -10067,6 +10312,9 @@
 "1.10",
 "1.15"
 ],
+"m-vave-fm-1/shruthi-fm1": [
+"main @ 119335b"
+],
 "m-vave-fm-1/sid-1": [
 "1.0.0",
 "1.0.1"
@@ -10114,7 +10362,8 @@
 ],
 "m-vave-fm-1/sillage": [
 "2.2.0",
-"2.2.1"
+"2.2.1",
+"2.2.2"
 ],
 "m-vave-fm-1/simorgh": [
 "santur @ 3e92e89"
@@ -10149,7 +10398,8 @@
 "2.5",
 "2.5.1",
 "2.6",
-"2.7"
+"2.7",
+"2.7.1"
 ],
 "m-vave-fm-1/skiff-atlatl": [
 "V1.0",
@@ -10198,7 +10448,8 @@
 "3.3.6-beta",
 "3.3.7-beta",
 "3.4.0-beta",
-"v3.4.1-beta"
+"v3.4.1-beta",
+"v3.4.2-beta"
 ],
 "m-vave-fm-1/sloop-3-songs": [
 "main @ 79dd32b"
@@ -10311,12 +10562,16 @@
 "1.2.1-bleglee",
 "1.3.0-tutorialtime"
 ],
+"m-vave-fm-1/sobergroove": [
+"0.1.0-alpha"
+],
 "m-vave-fm-1/solinaesque": [
 "v1.0"
 ],
 "m-vave-fm-1/spampy": [
 "1.0",
 "1.1-r058",
+"1.2-r080",
 "r949"
 ],
 "m-vave-fm-1/spellbox": [
@@ -10348,6 +10603,13 @@
 "m-vave-fm-1/stack": [
 "0.1-beta"
 ],
+"m-vave-fm-1/stack-maker-hip": [
+"3.95-beta",
+"3.96-beta",
+"3.97-beta",
+"3.98-beta",
+"4.01-beta"
+],
 "m-vave-fm-1/stack-trace-cfw": [
 "v1.0.0-stacktrace"
 ],
@@ -10367,7 +10629,8 @@
 "strabbledrome-v1.0"
 ],
 "m-vave-fm-1/stranger-synth": [
-"0.7.0"
+"0.7.0",
+"0.8.0"
 ],
 "m-vave-fm-1/strata": [
 "v0.1",
@@ -10468,7 +10731,12 @@
 "main @ d8db5a8"
 ],
 "m-vave-fm-1/tavern": [
-"1.0"
+"1.0",
+"1.1",
+"1.2"
+],
+"m-vave-fm-1/teachie-beachie": [
+"main @ bfba737"
 ],
 "m-vave-fm-1/teentaal": [
 "1.0"
@@ -10543,7 +10811,8 @@
 "main @ a2c0977"
 ],
 "m-vave-fm-1/tide-clock": [
-"1.0"
+"1.0",
+"1.1"
 ],
 "m-vave-fm-1/tidepool-fm1": [
 "1.0.1",
@@ -10566,6 +10835,12 @@
 ],
 "m-vave-fm-1/tonitor": [
 "main @ b1ffc18"
+],
+"m-vave-fm-1/tono": [
+"v0.65-opt",
+"v0.66-opt",
+"v0.70-opt",
+"v0.71-opt"
 ],
 "m-vave-fm-1/tr707c": [
 "main @ 260d07d"
@@ -10918,10 +11193,12 @@
 "v0.5.0",
 "v0.6.0",
 "v0.7.0",
-"v0.8.0"
+"v0.8.0",
+"v0.8.1"
 ],
 "m-vave-smc-mixer/better-smc-mixer": [
-"v0.1.0"
+"v0.1.0",
+"v0.1.1"
 ],
 "m-vave-smc-mixer/midisuite-linux": [
 "v1.0.0",
@@ -11040,7 +11317,8 @@
 "tabby-v1.2",
 "tabby-v1.2.1",
 "tabby-v1.3",
-"tabby-v1.4"
+"tabby-v1.4",
+"tabby-v1.5"
 ],
 "m-vave-smk-37/clipper-pro": [
 "1.2",
@@ -11371,6 +11649,9 @@
 "m-vave-tank-g/yamlvawe-tankg": [
 "main @ 88c1003"
 ],
+"m-vave-tank-mini/mvave-tank-mini-findings": [
+"main @ 08bd49a"
+],
 "m-vave-tank-mini/mvave-tank-mini-protocol": [
 "main @ bbe935c"
 ],
@@ -11454,7 +11735,9 @@
 "v0.1.2",
 "v0.1.3",
 "v0.1.4",
-"v0.1.5"
+"v0.1.5",
+"v0.1.6",
+"v0.1.7"
 ],
 "m5stack-cardputer/fresneldrone": [
 "v0.4"
@@ -11519,6 +11802,9 @@
 "v0.0.7",
 "v0.0.8"
 ],
+"m5stack-cardputer/mmctool": [
+"v1.0"
+],
 "m5stack-cardputer/morphase": [
 "v1.0"
 ],
@@ -11532,6 +11818,9 @@
 "m5stack-cardputer/pc-cardputeradv-midi": [
 "main @ 6b1cc85"
 ],
+"m5stack-cardputer/s8n-synth": [
+"main @ a5e2e00"
+],
 "m5stack-cardputer/smfpc": [
 "main @ cadce1b"
 ],
@@ -11541,6 +11830,9 @@
 ],
 "m5stack-cardputer/vgmm5": [
 "main @ a0a0f97"
+],
+"m5stack-cardputer/waveos": [
+"main @ 1c7a055"
 ],
 "m5stack-tab5/jiant-tab5": [
 "v0.1"
@@ -11628,6 +11920,10 @@
 ],
 "melted-electronics-glitch-boy/glitch-boy-firmware": [
 "main @ ff49284"
+],
+"meng-qi-wingie2/wingie2-firmware": [
+"v4.20",
+"v4.30"
 ],
 "meris-enzo/enzo-web-editor": [
 "v0.31.2",
@@ -11779,6 +12075,9 @@
 "monome-norns/norns-shield-pro-image": [
 "v-20251216"
 ],
+"monome-teletype/orca-teletype-aem": [
+"main @ 8c2a4e6"
+],
 "monome-teletype/teletype": [
 "v3.2.0",
 "v4.0.0",
@@ -11842,6 +12141,9 @@
 "main @ 06ed1f4"
 ],
 "moog-memorymoog/ef-firmware": [],
+"moog-mother-32/rungler-32": [
+"v1.0"
+],
 "moog-subharmonicon/tallent-edition": [
 "main @ fa76e5c",
 "v0.1.0"
@@ -12184,6 +12486,9 @@
 "music-thing-workshop-computer/666-ws-doom": [
 "1"
 ],
+"music-thing-workshop-computer/669-computer-tracker": [
+"0.4.3"
+],
 "music-thing-workshop-computer/67-fragments": [
 "1.1"
 ],
@@ -12340,7 +12645,8 @@
 ],
 "mutable-instruments-beads/beads-tuneup": [
 "beads-tuneup-2026.11.09",
-"beads-tuneup-2026.11.20"
+"beads-tuneup-2026.11.20",
+"beads-tuneup-2026.11.24"
 ],
 "mutable-instruments-beads/drizzlet": [
 "beads-2026.10.11",
@@ -12355,13 +12661,15 @@
 "main @ 17e201b",
 "main @ 1a92a7e",
 "main @ 25ce054",
+"main @ 3a4650f",
 "main @ 43cde42",
 "main @ 938283c",
 "main @ bfd9325",
 "main @ c273ff1"
 ],
 "mutable-instruments-beads/drizzlet-storage-recovery": [
-"storage-recovery-2026.10.27"
+"storage-recovery-2026.10.27",
+"storage-recovery-2026.11.24"
 ],
 "mutable-instruments-braids/bees-in-the-trees": [
 "v4.0.1",
@@ -12423,6 +12731,9 @@
 ],
 "mutable-instruments-grids/grids-source": [
 "master @ 61d7146"
+],
+"mutable-instruments-grids/gridswebapp": [
+"main @ 434b337"
 ],
 "mutable-instruments-marbles/marbles-resurrection": [
 "1.3 alternative v0.1.0 (pre-release)",
@@ -12779,6 +13090,9 @@
 "noise-engineering-legio/marimba-legio": [],
 "noise-engineering-legio/megafold-legio": [],
 "noise-engineering-legio/morbus-legio": [],
+"noise-engineering-legio/open-legio": [
+"main @ 11be646"
+],
 "noise-engineering-legio/ovis-legio": [],
 "noise-engineering-legio/plus-legio": [],
 "noise-engineering-legio/reso-legio": [],
@@ -12828,6 +13142,9 @@
 "noise-engineering-versio/melotus-versio": [],
 "noise-engineering-versio/multiversio": [
 "main @ 5283953"
+],
+"noise-engineering-versio/open-versio": [
+"main @ ccd51f5"
 ],
 "noise-engineering-versio/pleroma": [
 "v0.1",
@@ -13073,7 +13390,8 @@
 "2026-02-24",
 "2026-04-08",
 "2026-10-31",
-"2026-11-14"
+"2026-11-14",
+"2026-11-24"
 ],
 "ornament-and-crime/tronsphere": [
 "main @ 0872edc"
@@ -13499,7 +13817,8 @@
 "v0.9.9",
 "v0.9.9.1",
 "v0.9.9.2",
-"v0.9.9.3"
+"v0.9.9.3",
+"v0.9.9.4"
 ],
 "portmaster-compatible-handhelds/trackwerk": [
 "v0.2.0-beta.2",
@@ -13660,7 +13979,8 @@
 "roland-sp-404-mkii/404lab": [
 "main @ 15f1667",
 "main @ 39f71fa",
-"main @ 70bb16a"
+"main @ 70bb16a",
+"main @ b4920d3"
 ],
 "roland-sp-404-mkii/404tui": [
 "v0.1-alpha",
@@ -13990,7 +14310,8 @@
 "v1.2.1"
 ],
 "sonicake-pocket-master/pocketcake": [
-"master @ 9628cb0"
+"master @ 9628cb0",
+"master @ f75112b"
 ],
 "sonicake-pocket-master/pocketedit": [
 "v0.9",
@@ -14024,6 +14345,7 @@
 ],
 "sonicake-pocket-master/universal-midi-controller": [
 "main @ 14e95f5",
+"main @ 52cf764",
 "main @ 6d910f7",
 "main @ ce2fbd9"
 ],
@@ -14074,6 +14396,7 @@
 ],
 "sonicware-smpltrek/smpltrek-re": [
 "main @ 11ac9a0",
+"main @ 2b0f1ae",
 "main @ cf5e799"
 ],
 "sonicware-smpltrek/stk-builder": [
@@ -14371,7 +14694,8 @@
 "v1.4.0.b2",
 "v1.4.0.b3",
 "v1.4.0.b4",
-"v1.4.0.b5"
+"v1.4.0.b5",
+"v1.4.1"
 ],
 "synthux-spotykach/spotykachx": [
 "v0.1",
@@ -14492,6 +14816,7 @@
 "main @ 93f0f6b"
 ],
 "teenage-engineering-ep-133/ko-tool": [
+"main @ 399bda6",
 "main @ 3e16ba0",
 "main @ 4492e44",
 "main @ 58bcc3e",
@@ -14518,6 +14843,7 @@
 "teenage-engineering-ep-133/te-update-utility": [],
 "teenage-engineering-op-1-field/open-field": [
 "main @ 378eb86",
+"main @ 399c4d7",
 "main @ 468b132",
 "main @ 9f561b4",
 "main @ b6501e4",
@@ -14788,7 +15114,8 @@
 "v1.1.1",
 "v1.2.0",
 "v1.4.0",
-"v1.4.1"
+"v1.4.1",
+"v1.5.0"
 ],
 "teenage-engineering-sp-1/sp-66": [
 "main @ 8f92fb9"
@@ -14837,6 +15164,11 @@
 "trash80-ym2149-synth/ym2149synth-web-editor": [
 "master @ 9c5b35b"
 ],
+"trimui-brick/amalthea": [
+"build-36",
+"build-37",
+"build-38"
+],
 "trimui-brick/brickchord": [
 "v0.1.0-alpha",
 "v0.2.0-alpha",
@@ -14844,7 +15176,8 @@
 "v0.4.0-beta",
 "v0.4.1-r36",
 "v0.4.2-r36",
-"v0.4.3-r36"
+"v0.4.3-r36",
+"v0.5.0"
 ],
 "trimui-brick/brickrack": [
 "v0.1.0"
@@ -14881,6 +15214,11 @@
 "v1.0.0",
 "v1.1.0",
 "v1.2.0"
+],
+"trimui-brick/mutable-dreams-handheld": [
+"v1.5.10",
+"v1.5.9",
+"v1.6.2"
 ],
 "trimui-brick/ozma": [
 "v0.8-beta.1",
@@ -14968,6 +15306,11 @@
 "valeton-gp-200/rigsheet": [
 "main @ 6de5635"
 ],
+"valeton-gp-200/tap-tempo-global": [
+"v1.0.0",
+"v1.1.0",
+"v1.2.0"
+],
 "valeton-gp-200/tonecircuit": [
 "0.1.0",
 "0.1.1",
@@ -15041,6 +15384,7 @@
 ],
 "waldorf-blofeld/blofeld-emu": [
 "main @ 27ddb93",
+"main @ 4dc57fa",
 "main @ 55c989e",
 "main @ 6cf9868",
 "main @ 720b862",
@@ -15091,6 +15435,7 @@
 "xiphonics-picotracker/copingtracker": [
 "main @ 04f50e1",
 "main @ 09e293b",
+"main @ 6fa401f",
 "main @ a167fca"
 ],
 "xiphonics-picotracker/iaalm-picotracker-fork": [
@@ -15243,7 +15588,8 @@
 "v2.0.2",
 "v2.0.3",
 "v2.0.4",
-"v2.0.4.1"
+"v2.0.4.1",
+"v2.0.4.2"
 ],
 "zoom-multistomp/miditozoomms": [
 "main @ 34a5993"
