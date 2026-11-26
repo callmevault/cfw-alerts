@@ -2,7 +2,7 @@
  "version": 1,
  "title": "CFW digest",
  "description": "New custom firmware, tools and releases for music hardware, from the altstrument.org catalog.",
- "updated": "2026-11-26T00:42:56Z",
+ "updated": "2026-11-26T02:29:21Z",
  "source": {
   "name": "altstrument.org",
   "url": "https://altstrument.org",
@@ -4326,6 +4326,44 @@
        "date": "2026-11-25",
        "url": "https://github.com/matujuice/zoom-ms-midistomp/releases/tag/v2.0.4.2",
        "notes": "Builder release with the same firmware features. The builder asks which pedal you will flash (MS-70CDR, MS-60B or MS-50G), so the pedal reports its own model to editors and to Zoom's updaters, and MS-60B and MS-50G buil…"
+      }
+     ]
+    },
+    {
+     "id": "moog-mother-32/rungler-32",
+     "name": "Rungler-32",
+     "url": "https://altstrument.org/firmware/moog-mother-32/rungler-32",
+     "kind": "firmware",
+     "status": "active",
+     "quality": null,
+     "brick_risk": false,
+     "tags": [
+      "sequencer",
+      "delay",
+      "generative",
+      "random",
+      "turing-machine"
+     ],
+     "devices": [
+      {
+       "id": "moog-mother-32",
+       "name": "Moog Music Mother-32",
+       "manufacturer": "Moog Music",
+       "manufacturer_slug": "moog-music"
+      }
+     ],
+     "releases": [
+      {
+       "version": "v1.2",
+       "date": "2026-11-26",
+       "url": "https://github.com/dessertplanet/Rungler-32/releases/tag/v1.2",
+       "notes": null
+      },
+      {
+       "version": "v1.1",
+       "date": "2026-11-25",
+       "url": "https://github.com/dessertplanet/Rungler-32/releases/tag/v1.1",
+       "notes": null
       }
      ]
     }

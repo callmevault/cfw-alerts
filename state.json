@@ -1,5 +1,5 @@
 {
-"catalog_etag": "W/\"49eae686518924f55da9ba2fa457e957\"",
+"catalog_etag": "W/\"c79250b042e6ca6a502d616ecc6a43ac\"",
 "devices": [
 "1010music-bitbox-micro",
 "1010music-bitbox-mk2",
@@ -12142,7 +12142,9 @@
 ],
 "moog-memorymoog/ef-firmware": [],
 "moog-mother-32/rungler-32": [
-"v1.0"
+"v1.0",
+"v1.1",
+"v1.2"
 ],
 "moog-subharmonicon/tallent-edition": [
 "main @ fa76e5c",
