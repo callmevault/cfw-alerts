@@ -1,5 +1,5 @@
 {
-"catalog_etag": "W/\"3dd0a37638a6da5a6a52902ec8f523da\"",
+"catalog_etag": "W/\"020972a4c9545a267644c2345bf46af2\"",
 "devices": [
 "1010music-bitbox-micro",
 "1010music-bitbox-mk2",
@@ -8537,7 +8537,8 @@
 "1.2.0",
 "1.3.0",
 "1.3.1",
-"1.4.0"
+"1.4.0",
+"1.4.1"
 ],
 "m-vave-fm-1/gwaan-1": [
 "0.2",

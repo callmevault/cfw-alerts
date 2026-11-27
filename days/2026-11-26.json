@@ -3725,6 +3725,39 @@
      "notes": "Pre-release. Test build of the PortMaster packages for firmwares that ship libffi.so.8, where the apps stopped at launch; they no longer need the failing Python module to start. Checked on a computer, not yet on a TrimU…"
     }
    ]
+  },
+  {
+   "id": "m-vave-fm-1/guru-600",
+   "name": "Guru-600",
+   "url": "https://altstrument.org/firmware/m-vave-fm-1/guru-600",
+   "kind": "firmware",
+   "status": "active",
+   "quality": "rising",
+   "brick_risk": false,
+   "tags": [
+    "synth-engine",
+    "polysynth",
+    "emulator",
+    "editor",
+    "sequencer",
+    "fork"
+   ],
+   "devices": [
+    {
+     "id": "m-vave-fm-1",
+     "name": "M-VAVE FM-1",
+     "manufacturer": "M-VAVE",
+     "manufacturer_slug": "m-vave"
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.4.1",
+     "date": "2026-11-26",
+     "url": "https://github.com/MarcGoudy/guru-600/releases/tag/v1.4.1",
+     "notes": "Makes the glide follow its setting, up to 10 seconds, in MONO or LEG; it used to slide much faster than shown. Sounds, sequences, projects and backups carry over from 1.4.0."
+    }
+   ]
   }
  ],
  "untagged_updates": 43,
